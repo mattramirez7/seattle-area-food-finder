@@ -15,20 +15,16 @@ html {
 
 .container section {
     padding: 2em;
+    background-color: maroon;
 }
 
 .container .problem {
     border: 2px solid white;
-    background-color: maroon;
     flex: 1;
 }
 
 .container .app {
     border: 2px solid white;
-    background-color: maroon;
     flex: 1 0 400px;
 }
 
-.container .functionality {
-    background-color: maroon;
-}
