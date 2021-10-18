@@ -27,4 +27,7 @@ html {
     border: 2px solid white;
     flex: 1 0 400px;
 }
+a{
+    color: aliceblue;
+}
 
