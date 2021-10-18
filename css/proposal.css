@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: bisque;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+}
+
+.container section {
+    padding: 2em;
+}
+
+.container .problem {
+    border: 2px solid white;
+    background-color: maroon;
+    flex: 1;
+}
+
+.container .app {
+    border: 2px solid white;
+    background-color: maroon;
+    flex: 1 0 400px;
+}
+
+.container .functionality {
+    background-color: maroon;
+}
