@@ -1,0 +1,69 @@
+body{
+    font-family:  Helvetica, Arial, sans-serif;
+}
+nav{
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: #4b2e83;
+    padding: .5rem;
+    padding-bottom: 1rem;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    padding: 0;
+    margin: 0 1rem;
+}
+nav li:hover{
+    color: blanchedalmond;
+}
+
+header{
+    margin-top: 2rem;
+    padding-top: .5rem;
+    padding-bottom: 10rem;
+    background-image: url('../img/skyline.jpg');
+    background-size: cover;
+    background-position: top;
+    background-color: blue;
+}
+
+
+
+div.container{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: white;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.titleOfPage{
+    font-weight: bold;
+    
+}
+
+
+/*Changing the header background image based on width of screen*/
+@media (min-width: 586px){
+    header{
+        background-image: url('../img/skyline2.jpg');
+    }
+}
+@media (min-width: 992px){
+    header{
+        background-image: url('../img/skyline3.jpg');
+    }
+}
+@media (min-width: 1200px){
+    header{
+        background-image: url('../img/skyline4.jpg');
+    }
+}
