@@ -1,5 +1,6 @@
 body{
     font-family:  Helvetica, Arial, sans-serif;
+    margin: 0;
 } 
 nav{
     font-size: 20px;
@@ -47,7 +48,6 @@ main {
     font-family: 'Courier New', Courier, monospace;
     background-color: #4b2e83;
     color: white;
-    padding-bottom: 3rem;
 }
 
 main .container {
@@ -58,11 +58,7 @@ main .container {
 }
 
 .container section {
-    padding-bottom: 2em;
-}
-
-.container .column1 {
-    flex-basis: 250px;
+    padding-bottom: 4rem;
 }
 
 .container h1 {
@@ -71,14 +67,37 @@ main .container {
     text-align: center;
 }
 
-.container .column2 {
-    flex: 1;
+.container .recommended {
+    flex: 3;
     justify-content: center;
     background-color:rgb(132, 87, 223);
 }
 
-.container .column3 {
+.container .recents{
     flex-basis: 250px;
+}
+/*Styling to make lists a flex box and change on hover*/
+.userListsDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.listName{
+    border-radius: 10px;
+    background-color: rgb(132, 87, 223);
+    padding: 10px;
+    flex-basis: 100%;
+    margin: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #4b2e83;
+}
+.listName:hover{
+    background-color: #4b2e83;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
 }
 
 .recommendations {
@@ -104,6 +123,10 @@ main .container {
     text-align: center;
     margin-top: 0;
     font-weight: bolder;
+}
+.map{
+    flex-basis: 100%;
+    justify-content: center;
 }
 
 
