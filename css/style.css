@@ -1,5 +1,6 @@
 body{
     font-family:  Helvetica, Arial, sans-serif;
+    margin: 0;
 } 
 nav{
     font-size: 20px;
@@ -41,7 +42,6 @@ main {
     font-family: 'Courier New', Courier, monospace;
     background-color: #4b2e83;
     color: white;
-    padding-bottom: 3rem;
 }
 
 main .container {
@@ -52,11 +52,7 @@ main .container {
 }
 
 .container section {
-    padding-bottom: 2em;
-}
-
-.container .column1 {
-    flex-basis: 250px;
+    padding-bottom: 4rem;
 }
 
 .container h1 {
@@ -65,13 +61,13 @@ main .container {
     text-align: center;
 }
 
-.container .column2 {
-    flex: 1;
+.container .recommended {
+    flex: 3;
     justify-content: center;
     background-color:rgb(132, 87, 223);
 }
 
-.container .column3 {
+.container .recents{
     flex-basis: 250px;
 }
 
