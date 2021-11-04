@@ -29,6 +29,18 @@ nav a:hover {
 color: blanchedalmond;
 }
 
+.recents h1 {
+    text-align: center;
+}
+
+.userListsDiv2 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #4b2e83;
+}
+
+
 header{
     margin-top: 2rem;
     padding-top: .5rem;
