@@ -22,6 +22,9 @@ nav ul {
 
 nav a {
 	color: white;
+	display: inline;
+    padding: 0;
+    margin: 0 1rem;
 }
 
 .userListsDiv2 {
