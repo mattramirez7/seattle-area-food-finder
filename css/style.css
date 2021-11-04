@@ -33,6 +33,7 @@
 
  .recents h1 {
      text-align: center;
+
 }
 
  .userListsDiv2 {
@@ -42,7 +43,7 @@
      background-color: #4b2e83;
 }
 
- .listName{
+ .listName2{
      border-radius: 10px;
      background-color: rgb(132, 87, 223);
      padding: 10px;
@@ -51,9 +52,10 @@
      border-width: 3px;
      border-style: solid;
      border-color: #4b2e83;
+     color: white;
 }
 
- .listName:hover{
+ .listName2:hover{
      background-color: #4b2e83;
      border-style: solid;
      border-color: white;
@@ -73,6 +75,7 @@
  .restList {
      text-align: center;
      background-color: #4b2e83;
+     color: white;
 }
 
  main {
