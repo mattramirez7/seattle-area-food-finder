@@ -33,14 +33,13 @@
 
  .recents h1 {
      text-align: center;
-     background-color: #4b2e83;
 }
 
  .userListsDiv2 {
      display: flex;
      flex-direction: row;
      padding: 10px;
-     background-color: #b7a57a;
+     background-color: #4b2e83;
 }
 
  .listName{
