@@ -16,13 +16,16 @@ nav ul{
     padding: 0;
     margin: 0;
 }
-nav li{
-    display: inline;
+
+nav a {
+color: white;
+display: inline;
     padding: 0;
     margin: 0 1rem;
 }
-nav li:hover{
-    color: blanchedalmond;
+
+nav a:hover {
+color: blanchedalmond;
 }
 
 header{
@@ -35,7 +38,10 @@ header{
     background-color: blue;
 }
 
-
+.restList {
+text-align: center;
+background-color: #4b2e83;
+}
 
 main {
     font-family: 'Courier New', Courier, monospace;
