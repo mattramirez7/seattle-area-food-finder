@@ -1,6 +1,6 @@
 body{
     font-family:  Helvetica, Arial, sans-serif;
-}
+} 
 nav{
     font-size: 20px;
     position: fixed;
@@ -37,7 +37,72 @@ header{
 
 
 
-div.container{
+main {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #4b2e83;
+    color: white;
+    padding-bottom: 3rem;
+}
+
+main .container {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container section {
+    padding-bottom: 2em;
+}
+
+.container .column1 {
+    flex-basis: 250px;
+}
+
+.container h1 {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.container .column2 {
+    flex: 1;
+    justify-content: center;
+    background-color:rgb(132, 87, 223);
+}
+
+.container .column3 {
+    flex-basis: 250px;
+}
+
+.recommendations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recommendations div {
+    flex: 0 0 ;
+
+}
+
+.recommendations img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px 10px 10px;
+    text-align: center;
+    margin: 1rem 2rem;
+}
+
+.recommendations p {
+    text-align: center;
+    margin-top: 0;
+    font-weight: bolder;
+}
+
+
+
+header .container{
     font-family: 'Courier New', Courier, monospace;
     font-size: 28px;
     color: white;
