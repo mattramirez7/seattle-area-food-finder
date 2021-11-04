@@ -26,7 +26,10 @@ nav a {
     padding: 0;
     margin: 0 1rem;
 }
-
+nav a:hover {
+	color: blanchedalmond;
+	
+}
 .userListsDiv2 {
 	display: flex;
 	flex-direction: row;
