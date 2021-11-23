@@ -6,12 +6,12 @@ export function NavBar(props) {
     return (
         <nav>
             <ul>
-                <a>Home</a>
-                <a>List</a>
-                <a>Map</a>
+                <a href="">Home</a>
+                <a href="">List</a>
+                <a href="">Map</a>
                 <a>Search</a>
-                <AccountCircleIcon className='accIcon'/>
             </ul>
+            <AccountCircleIcon className='accIcon' aria-label="Account Icon"/>
         </nav>
     )
 }

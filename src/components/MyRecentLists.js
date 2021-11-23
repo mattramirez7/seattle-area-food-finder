@@ -4,7 +4,7 @@ export function MyRecentLists() {
 
     return (
         <section className="recents">
-            <h1> My Recent Lists</h1>
+            <h2> My Recent Lists</h2>
                 <div className="userListsDiv">
                     <div className="listName">Favorites</div>
                     <div className="listName">Want to try</div>

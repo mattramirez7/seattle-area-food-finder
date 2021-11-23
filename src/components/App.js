@@ -5,18 +5,18 @@ import { MyRecentLists } from './MyRecentLists';
 import {Recommended} from './Recommended';
 import {Map} from './Map';
 
-function App() {
+function App(props) {
 
     return (
         <div >
+            <NavBar />
             <header>
-                <div className="titleOfPage">
-                    <p>Seattle Food Finder</p>
+                <div>
+                    <h1>Seattle Area Food Finder</h1>
                 </div>
             </header>
 
             <main>
-                <NavBar />
                 <div className='container'>
                     <MyRecentLists />
                     <Recommended />
@@ -25,8 +25,8 @@ function App() {
             </main>
             
             <footer>
-                <p>About</p>
-                <p>Contact Us</p>
+                <a href="">About </a>
+                <a href=""> Contact Us</a>
                 <p>© Seattle Food Finder 2021</p>
             </footer>
         </div>

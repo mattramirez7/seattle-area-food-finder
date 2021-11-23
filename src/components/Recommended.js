@@ -4,7 +4,7 @@ export function Recommended() {
 
     return (
         <section className="recommended">
-                <h1>Recommended For You</h1>
+                <h2>Recommended For You</h2>
                 <div className="recommendations">
                     <div>
                         <img src="img/foodrec1.jpg" alt="Matt's Noodle House"/>

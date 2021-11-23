@@ -3,6 +3,28 @@ body {
 	margin: 0;
 }
 
+/* Styling for the header */
+header {
+	margin-top: 2rem;
+	padding-top: .5rem;
+	padding-bottom: 20rem;
+	background-image: url('./img/skyline2.jpg');
+	background-size: cover;
+	background-position: top;
+	background-color: blue;
+}
+
+header h1 {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 28px;
+	color: white;
+	text-align: right;
+	padding-right: 1rem;
+	padding-top: 2rem;
+	font-weight: bold;
+}
+
+/* Styling for NAV element */
 nav {
 	font-size: 20px;
 	position: fixed;
@@ -18,6 +40,7 @@ nav {
 nav ul {
 	padding: 0;
 	margin: 0;
+	display: inline;
 }
 
 nav a {
@@ -28,9 +51,131 @@ nav a {
 }
 nav a:hover {
 	color: blanchedalmond;
-	
-} 
+}
 
+/* Styling for main content */
+
+main {
+	font-family: 'Courier New', Courier, monospace;
+	background-color: #4b2e83;
+	color: white;
+}
+
+main .container {
+	display: flex;
+	margin: 0;
+	flex-wrap: wrap;
+}
+
+.container section {
+	padding-bottom: 2rem;
+}
+
+.container h2 {
+	font-weight: bold;
+	font-size: 26px;
+	text-align: center;
+}
+
+.container .recommended {
+	flex: 3;
+	justify-content: center;
+	background-color: rgb(132, 87, 223);
+	border-radius: 0 0 10px 10px;
+}
+
+/*Styling for My Recent Lists section*/
+.recents {
+	border-radius: 10px;
+}
+
+.recents h1 {
+	text-align: center;
+}
+
+.userListsDiv2 {
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	background-color: #4b2e83;
+}
+
+.restList {
+	text-align: center;
+	background-color: #4b2e83;
+	color: white;
+}
+
+.userListsDiv {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.listName {
+	border-radius: 10px;
+	background-color: rgb(132, 87, 223);
+	padding: 10px;
+	flex-basis: 100%;
+	margin: 10px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #4b2e83;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.listName:hover {
+	background-color: #4b2e83;
+	border-style: solid;
+	border-color: white;
+	border-width: 3px;
+}
+
+/* Styling for Recommendations section */
+.recommendations {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.recommendations div {
+	flex: 0 0;
+}
+
+.recommendations img {
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	margin: 1rem 2rem;
+}
+
+.recommendations p {
+	text-align: center;
+	margin-top: 0;
+	font-weight: bolder;
+}
+
+/* Styling for images */
+img {
+	border-radius: 10px 10px 10px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Styling for the Map */
+.map {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.map div.container {
+	flex: 1;
+	padding-bottom: 2rem;
+	font-size: 18px;
+	justify-content: center;
+}
+
+/* Styling for second page (My Recent Lists) */
 .userListsDiv2 {
 	display: flex;
 	flex-direction: row;
@@ -57,170 +202,49 @@ nav a:hover {
 	border-width: 3px;
 }
 
-.recents h1 {
-	text-align: center;
-}
-
-.userListsDiv2 {
-	display: flex;
-	flex-direction: row;
-	padding: 10px;
-	background-color: #4b2e83;
-}
-
-header {
-	margin-top: 2rem;
-	padding-top: .5rem;
-	padding-bottom: 10rem;
-	background-image: url('./img/skyline2.jpg');
-	background-size: cover;
-	background-position: top;
-	background-color: blue;
-}
-
-.restList {
-	text-align: center;
-	background-color: #4b2e83;
-	color: white;
-}
-
-main {
-	font-family: 'Courier New', Courier, monospace;
-	background-color: #4b2e83;
-	color: white;
-}
-
-main .container {
-	display: flex;
-	margin: 0;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
-
-.container section {
-	padding-bottom: 2rem;
-}
-
-.container h1 {
-	font-weight: bold;
-	font-size: 24px;
-	text-align: center;
-}
-
-.container .recommended {
-	flex: 3;
-	justify-content: center;
-	background-color: rgb(132, 87, 223);
-}
-
-.container .recents {
-	flex-basis: 250px;
-}
-
-
-/*Styling to make lists a flex box and change on hover*/
-
-.userListsDiv {
-	display: flex;
-	flex-direction: column;
-	padding: 10px;
-}
-
-.listName {
-	border-radius: 10px;
-	background-color: rgb(132, 87, 223);
-	padding: 10px;
-	flex-basis: 100%;
-	margin: 10px;
-	border-width: 3px;
-	border-style: solid;
-	border-color: #4b2e83;
-}
-
-.listName:hover {
-	background-color: #4b2e83;
-	border-style: solid;
-	border-color: white;
-	border-width: 3px;
-}
-
-.recommendations {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.recommendations div {
-	flex: 0 0;
-}
-
-.recommendations img {
-	height: 200px;
-	width: 200px;
-	border-radius: 10px 10px 10px;
-	text-align: center;
-	margin: 1rem 2rem;
-}
-
-.recommendations p {
-	text-align: center;
-	margin-top: 0;
-	font-weight: bolder;
-}
-
-.map {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-}
-
-.map div.container {
-	flex: 1;
-	padding-bottom: 2rem;
-	font-size: 18px;
-	justify-content: center;
-}
-
-header p {
-	font-family: 'Courier New', Courier, monospace;
-	font-size: 28px;
-	color: white;
-	text-align: right;
-	padding-right: 1rem;
-}
-
-.titleOfPage {
-	font-weight: bold;
-}
-
+/* Styling for footer */
 footer {
 	background-color: rgb(132, 87, 223);
 	padding: 1em;
 	color: white;
 }
 
-footer p {
+footer p, footer a {
+	color:white;
+	display: block;
 	margin: 0;
 	line-height: 1.25;
 }
 
+footer a:hover {
+	color: blanchedalmond;
+}
 
-/*Changing the header background image based on width of screen*/
+/*Changing the header background image and font size based on width of screen*/
 
 @media (min-width: 586px) {
 	header {
 		background-image: url('./img/skyline2.jpg');
 	}
+	header h1 {
+		font-size: 32px;
+	}	
 }
 
 @media (min-width: 992px) {
 	header {
 		background-image: url('./img/skyline3.jpg');
 	}
+	header h1 {
+		font-size: 36px;
+	}
 }
 
 @media (min-width: 1200px) {
 	header {
 		background-image: url('./img/skyline4.jpg');
+	}
+	header h1 {
+		font-size: 40px;
 	}
 }
