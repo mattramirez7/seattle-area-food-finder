@@ -1,5 +1,5 @@
 import React from 'react'
-// import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 export function NavBar(props) {
 
@@ -11,7 +11,7 @@ export function NavBar(props) {
                 <a href="">Map</a>
                 <a>Search</a>
             </ul>
-            {/* <AccountCircleIcon className='accIcon' aria-label="Account Icon"/> */}
+            <AccountCircleIcon className='accIcon' aria-label="Account Icon"/>
         </nav>
     )
 }

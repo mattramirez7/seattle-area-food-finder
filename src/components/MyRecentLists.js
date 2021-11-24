@@ -4,7 +4,7 @@ export function MyRecentLists(props) {
     
     
     let createdRecentList = props.recents.map((listName) =>{
-        return <div className='listName'>{listName}</div>  
+        return <div key={listName} className='listName'>{listName}</div>  
     });
 
     return (

@@ -1,9 +1,10 @@
 import React from 'react';
-
 import {NavBar} from './NavBar';
 import { MyRecentLists } from './MyRecentLists';
 import {Recommended} from './Recommended';
 import {Map} from './Map';
+import { ListView } from './ListView';
+
 
 function App(props) {
 
@@ -13,17 +14,19 @@ function App(props) {
         <div >
             <NavBar />
             <header>
-                <div>
+               <div>
                     <h1>Seattle Area Food Finder</h1>
                 </div>
             </header>
 
             <main>
-                <div className='container'>
+                <div className='containerMain'>
                     <MyRecentLists recents ={RECENT_EXAMPLE}/>
                     <Recommended />
                 </div>
                 <Map />
+
+                <ListView />
             </main>
             
             <footer>
