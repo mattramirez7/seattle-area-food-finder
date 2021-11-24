@@ -1,15 +1,17 @@
 import React from 'react';
 
-export function MyRecentLists() {
+export function MyRecentLists(props) {
+    
+    
+    let createdRecentList = props.recents.map((listName) =>{
+        return <div className='listName'>{listName}</div>  
+    });
 
     return (
         <section className="recents">
             <h2> My Recent Lists</h2>
                 <div className="userListsDiv">
-                    <div className="listName">Favorites</div>
-                    <div className="listName">Want to try</div>
-                    <div className="listName">Great burger places</div>
-                    <div className="listName">Teriyaki places</div>
+                    {createdRecentList}
                     <div className="listName">+ Create List</div>
                 </div>
         </section>

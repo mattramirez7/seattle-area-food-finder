@@ -7,6 +7,8 @@ import {Map} from './Map';
 
 function App(props) {
 
+    const RECENT_EXAMPLE = ['Favorites', 'Want to try', 'Great burger places', 'Teriyaki places'];
+
     return (
         <div >
             <NavBar />
@@ -18,7 +20,7 @@ function App(props) {
 
             <main>
                 <div className='container'>
-                    <MyRecentLists />
+                    <MyRecentLists recents ={RECENT_EXAMPLE}/>
                     <Recommended />
                 </div>
                 <Map />
