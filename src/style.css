@@ -89,16 +89,14 @@ main .containerMain {
 	border-radius: 10px;
 }
 
-.recents h1 {
+.recents h2 {
 	text-align: center;
+	margin-top: 10px;
 }
 
 .userLists h1 {
 	text-align: center;
 }
-
-
-
 
 .restList {
 	text-align: center;
@@ -132,6 +130,10 @@ main .containerMain {
 }
 
 /* Styling for Recommendations section */
+.recommended {
+	padding-top: 10px;
+}
+
 .recommendations {
 	display: flex;
 	flex-wrap: wrap;

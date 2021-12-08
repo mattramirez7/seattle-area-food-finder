@@ -7,6 +7,7 @@ import App from './components/App';
 import 'bootstrap/dist/css/bootstrap.css';
 import './style.css';
 import RESTAURANT_DATA from './data/restaurants.json';
+import { BrowserRouter } from 'react-router-dom';
 
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -30,6 +31,6 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
 
-ReactDOM.render(<App restaurantData={RESTAURANT_DATA}/>, document.getElementById('root'));
+ReactDOM.render(<BrowserRouter><App restaurantData={RESTAURANT_DATA}/></BrowserRouter>, document.getElementById('root'));
 
 

@@ -4,7 +4,8 @@ import { MyRecentLists } from './MyRecentLists';
 import {Recommended} from './Recommended';
 import {Map} from './Map';
 import { ListView } from './ListView';
-
+import { Route } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
 
 function App(props) {
 
@@ -20,13 +21,20 @@ function App(props) {
             </header>
 
             <main>
-                <div className='containerMain'>
-                    <MyRecentLists recents ={RECENT_EXAMPLE}/>
-                    <Recommended />
-                </div>
-                <Map />
-
-                {<ListView /> }
+                <Switch>
+                    <Route exact path='/'>        
+                        <div className='containerMain'>
+                            <MyRecentLists recents ={RECENT_EXAMPLE}/>
+                            <Recommended />
+                        </div>
+                    </Route>
+                    <Route path='/map'>
+                        <Map />
+                    </Route>
+                    <Route path='/list'>
+                        {<ListView /> }
+                    </Route>
+                </Switch>
             </main>
             
             <footer>
