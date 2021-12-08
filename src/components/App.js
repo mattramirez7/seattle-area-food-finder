@@ -22,7 +22,7 @@ function App(props) {
 
             <main>
                 <Switch>
-                    <Route exact path='/'>        
+                    <Route path='/home'>        
                         <div className='containerMain'>
                             <MyRecentLists recents ={RECENT_EXAMPLE}/>
                             <Recommended />
