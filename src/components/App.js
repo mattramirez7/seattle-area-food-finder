@@ -26,7 +26,7 @@ function App(props) {
                 </div>
                 <Map />
 
-                {/* <ListView /> */}
+                {<ListView /> }
             </main>
             
             <footer>
