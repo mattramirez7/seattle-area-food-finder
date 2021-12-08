@@ -44,8 +44,6 @@
     
     {"Name":"Agave Cocina & Cantina","Star":"3.5","Category":["Bars", "Mexican"],"Services":["Delivery"],"Address":"504 Ramsay Way, Ste 107, Kent Station, Kent, WA 98032"},
     
-    {"Name":"Agave Cocina & Cantina","Star":"3.5","Category":["Mexican", "Bars"],"Services":["Delivery", "Takeout"],"Address":"504 Ramsay Way, Ste 107, Kent Station, Kent, WA 98032"},
-    
     {"Name":"Aguacateros","Star":"4","Category":["Mexican"],"Services":["Delivery", "Takeout"],"Address":"24020 104th Ave SE, Kent, WA 98031"},
     
     {"Name":"Airways Brewing: The Bistro in Downtown Kent","Star":"4","Category":["Breweries", "Pizza", "Sandwiches"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"320 W Harrison St, Kent, WA 98032"},
@@ -178,10 +176,6 @@
     
     {"Name":"Biscuit Bitch","Star":"4","Category":["Breakfast & Brunch", "Coffee & Tea", "Southern"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"2303 3rd Ave, Seattle, WA 98121"},
     
-    {"Name":"Biscuit Bitch","Star":"4.5","Category":["Breakfast & Brunch", "Southern", "Coffee & Tea"],"Services":["Delivery", "Takeout"],"Address":"1909 1st Ave, Seattle, WA 98101"},
-    
-    {"Name":"Biscuit Bitch","Star":"4.5","Category":["Breakfast & Brunch", "Southern", "Coffee & Tea"],"Services":["Delivery", "Takeout"],"Address":"2303 3rd Ave, Seattle, WA 98121"},
-    
     {"Name":"Biscuits Cafe","Star":"3.5","Category":["Cafes", "Breakfast & Brunch", "American (Traditional)"],"Services":["Delivery"],"Address":"35105 Enchanted Pkwy S, Ste G104, Federal Way, WA 98003"},
     
     {"Name":"Bistro 76 Cafe & Catering","Star":"4.5","Category":["Breakfast & Brunch", "Venues & Event Spaces"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"18401 76th Ave W, Ste 103, Edmonds, WA 98026"},
@@ -194,10 +188,6 @@
     
     {"Name":"Black Bottle","Star":"4","Category":["American (New)", "Gastropubs", "Tapas/Small Plates"],"Services":["Outdoor dining", "Takeout"],"Address":"2600 1st Ave, Seattle, WA 98121"},
     
-    {"Name":"Black Bottle","Star":"4","Category":["American (New)", "Gastropubs", "Tapas/Small Plates"],"Services":[],"Address":"919 Bellevue Way NE, Bellevue, WA 98004"},
-    
-    {"Name":"Black Bottle","Star":"4","Category":["American (New)", "Gastropubs", "Tapas/Small Plates"],"Services":[],"Address":"2600 1st Ave, Seattle, WA 98121"},
-    
     {"Name":"Blackbird","Star":"4.5","Category":["American (New)", "Diners", "Breakfast & Brunch"],"Services":["Outdoor dining"],"Address":"1843 NW 195th St, Shoreline, WA 98177"},
     
     {"Name":"Blazing Bowl","Star":"4.5","Category":["Laotian", "Hot Pot"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"15600 NE 8th St, Ste PM6, Bellevue, WA 98008"},
@@ -209,10 +199,6 @@
     {"Name":"Boiling Fish","Star":"4.5","Category":["Chinese", "Asian Fusion"],"Services":["Delivery", "Takeout"],"Address":"22511 Hwy 99, Ste 101, Edmonds, WA 98026"},
     
     {"Name":"Boiling Point","Star":"4","Category":["Taiwanese", "Hot Pot", "Comfort Food"],"Services":["Delivery", "Takeout"],"Address":"22001 Hwy 99, Ste 100, Edmonds, WA 98026"},
-    
-    {"Name":"Boiling Point","Star":"3.5","Category":["Taiwanese", "Hot Pot", "Comfort Food"],"Services":["Delivery", "Takeout"],"Address":"22001 Hwy 99, Ste 100, Edmonds, WA 98026"},
-    
-    {"Name":"Boiling Point","Star":"3.5","Category":["Taiwanese", "Hot Pot", "Comfort Food"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"22001 Hwy 99, Ste 100, Edmonds, WA 98026"},
     
     {"Name":"Botteco Brazil","Star":"4.5","Category":["Steakhouses", "Brazilian", "Chicken Shop"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"14561 Bothell Way NE, Shoreline, WA 98155"},
     
@@ -233,8 +219,6 @@
     {"Name":"Buerjia Chinese Sauerkraut Fish","Star":"3.5","Category":["Szechuan", "Seafood", "Comfort Food"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"13200 Aurora Ave N, Seattle, WA 98133"},
     
     {"Name":"Buffalo Wild Wings","Star":"2","Category":["Chicken Wings", "American (Traditional)", "Sports Bars"],"Services":["Delivery", "Takeout"],"Address":"2005 S 320th St, Federal Way, WA 98063"},
-    
-    {"Name":"Buffalo Wild Wings","Star":"2.5","Category":["Chicken Wings", "Sports Bars", "American (Traditional)"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"2005 S 320th St, Federal Way, WA 98063"},
     
     {"Name":"Bugis","Star":"4.5","Category":["Korean"],"Services":[],"Address":"4241 NE University Way, Seattle, WA 98105"},
     
@@ -279,8 +263,6 @@
     {"Name":"Calypso Edmonds","Star":"4.5","Category":["Caribbean"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"109 Main St, Edmonds, WA 98020"},
     
     {"Name":"Can Am Pizza","Star":"4","Category":["Pizza", "Sandwiches"],"Services":[],"Address":"23819 104th Ave SE, Kent, WA 98031"},
-    
-    {"Name":"Can Am Pizza","Star":"3.5","Category":["Pizza", "Indian", "Italian"],"Services":[],"Address":"23819 104th Ave SE, Kent, WA 98031"},
     
     {"Name":"Canlis","Star":"4","Category":["American (New)", "Seafood"],"Services":[],"Address":"2576 Aurora Ave N, Seattle, WA 98109"},
     
@@ -336,17 +318,7 @@
     
     {"Name":"Chick-fil-A","Star":"4","Category":["Fast Food"],"Services":["Delivery", "Takeout"],"Address":"32025 Pacific Hwy S, Federal Way, WA 98003"},
     
-    {"Name":"Chick-fil-A","Star":"4","Category":["Fast Food"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"12801 Aurora Ave N, Seattle, WA 98133"},
-    
-    {"Name":"Chick-fil-A","Star":"4","Category":["Fast Food"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"32025 Pacific Hwy S, Federal Way, WA 98003"},
-    
-    {"Name":"Chick-fil-A","Star":"3","Category":["Fast Food"],"Services":["Delivery", "Takeout"],"Address":"12801 Aurora Ave N, Seattle, WA 98133"},
-    
-    {"Name":"Chick-fil-A","Star":"3","Category":["Fast Food"],"Services":["Delivery", "Takeout"],"Address":"32025 Pacific Hwy S, Federal Way, WA 98003"},
-    
     {"Name":"Cho Dang Tofu Restaurant","Star":"4","Category":["Korean"],"Services":["Delivery", "Takeout"],"Address":"17424 Hwy 99, Ste 107, Lynnwood, WA 98037"},
-    
-    {"Name":"Cho Dang Tofu Restaurant","Star":"4.5","Category":["Korean"],"Services":["Delivery", "Takeout"],"Address":"17424 Hwy 99, Ste 107, Lynnwood, WA 98037"},
     
     {"Name":"CHOKE DEE Thai Street","Star":"4.5","Category":["Thai", "Noodles"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"27237 172nd Ave SE, Ste 115, Covington, WA 98042"},
     
@@ -369,8 +341,6 @@
     {"Name":"COMMUNION Restaurant and Bar","Star":"4.5","Category":["Soul Food", "Soup", "Cocktail Bars"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"2350 E Union St, Seattle, WA 98122"},
     
     {"Name":"Como","Star":"3.5","Category":["Italian", "Pizza", "Cocktail Bars"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"1270 Carillon Point, Kirkland, WA 98033"},
-    
-    {"Name":"Como","Star":"3.5","Category":["Italian", "Pizza", "Cocktail Bars"],"Services":[],"Address":"1270 Carillon Point, Kirkland, WA 98033"},
     
     {"Name":"Copine","Star":"4.5","Category":["American (New)", "French"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"6460 24th Ave NW, Seattle, WA 98107"},
     
@@ -471,8 +441,6 @@
     {"Name":"Elliott Bay Public House & Brewery","Star":"4","Category":["American (Traditional)", "Brewpubs", "Tapas/Small Plates"],"Services":["Live wait time: 0 mins", "Outdoor dining", "Delivery", "Takeout"],"Address":"12537 Lake City Way NE, Seattle, WA 98125"},
     
     {"Name":"Epulo Bistro","Star":"4","Category":["Mediterranean"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"190 Sunset Ave, Ste B, Edmonds, WA 98020"},
-    
-    {"Name":"Epulo Bistro","Star":"4","Category":["Mediterranean"],"Services":[],"Address":"190 Sunset Ave, Ste B, Edmonds, WA 98020"},
     
     {"Name":"Europa","Star":"4.5","Category":["Modern European", "German", "Polish"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"29030 216th Ave SE, Black Diamond, WA 98022"},
     
@@ -608,8 +576,6 @@
     
     {"Name":"Hello Banh Mi","Star":"4.5","Category":["Vietnamese", "Sandwiches", "Breakfast & Brunch"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"14304 124th Ave NE, Kirkland, WA 98034"},
     
-    {"Name":"Hello Banh Mi","Star":"4","Category":["Desserts", "Bubble Tea", "Vietnamese"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"14304 124th Ave NE, Kirkland, WA 98034"},
-    
     {"Name":"Herb & Bitter Public House","Star":"4","Category":["Tapas/Small Plates", "Cocktail Bars", "Salad"],"Services":["Outdoor dining", "Takeout"],"Address":"516 Broadway E, Seattle, WA 98102"},
     
     {"Name":"Here & There Grill","Star":"4.5","Category":["Food Trucks", "Sandwiches"],"Services":[],"Address":"Edmonds, WA 98020"},
@@ -658,10 +624,6 @@
     
     {"Name":"IHOP","Star":"3.5","Category":["Breakfast & Brunch", "American (Traditional)", "Burgers"],"Services":["Live wait time: 0 mins", "Outdoor dining", "Delivery", "Takeout"],"Address":"24060 104th Ave SE, Kent, WA 98031"},
     
-    {"Name":"IHOP","Star":"2.5","Category":["Breakfast & Brunch", "American (Traditional)"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"178 SW Campus Dr, Federal Way, WA 98023"},
-    
-    {"Name":"IHOP","Star":"2.5","Category":["Breakfast & Brunch", "American (Traditional)"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"24060 104th Ave SE, Kent, WA 98031"},
-    
     {"Name":"Il Nido","Star":"4.5","Category":["Italian"],"Services":["Outdoor dining"],"Address":"2717 61st Ave SW, The Alki Homestead, Seattle, WA 98116"},
     
     {"Name":"In Pizza We Crust","Star":"5","Category":["Pizza", "Food Trucks"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"2612 Bellevue Way NE, Bellevue, WA 98004"},
@@ -683,18 +645,6 @@
     {"Name":"Isarn Thai Soul Kitchen","Star":"4.5","Category":["Noodles", "Thai", "Cocktail Bars"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"2316 NE 65th St, Seattle, WA 98115"},
     
     {"Name":"Isarn Thai Soul Kitchen","Star":"4.5","Category":["Noodles", "Thai", "Cocktail Bars"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"18530 33rd Ave W, Ste B, Lynnwood, WA 98037"},
-    
-    {"Name":"Isarn Thai Soul Kitchen","Star":"4","Category":["Thai", "Cocktail Bars", "Noodles"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"170 Lake St S, Kirkland, WA 98033"},
-    
-    {"Name":"Isarn Thai Soul Kitchen","Star":"4","Category":["Thai", "Cocktail Bars", "Noodles"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"2316 NE 65th St, Seattle, WA 98115"},
-    
-    {"Name":"Isarn Thai Soul Kitchen","Star":"4","Category":["Thai", "Cocktail Bars", "Noodles"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"18530 33rd Ave W, Ste B, Lynnwood, WA 98037"},
-    
-    {"Name":"Isarn Thai Soul Kitchen","Star":"4","Category":["Thai", "Noodles"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"170 Lake St S, Kirkland, WA 98033"},
-    
-    {"Name":"Isarn Thai Soul Kitchen","Star":"4","Category":["Thai", "Noodles"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"2316 NE 65th St, Seattle, WA 98115"},
-    
-    {"Name":"Isarn Thai Soul Kitchen","Star":"4","Category":["Thai", "Noodles"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"18530 33rd Ave W, Ste B, Lynnwood, WA 98037"},
     
     {"Name":"Ishoni Yakiniku","Star":"4.5","Category":["Barbeque", "Japanese"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"611 Broadway E, Seattle, WA 98102"},
     
@@ -736,8 +686,6 @@
     
     {"Name":"Just Poké","Star":"4","Category":["Poke", "Hawaiian"],"Services":["Delivery", "Takeout"],"Address":"117 Kirkland Ave, Ste 117, Kirkland, WA 98033"},
     
-    {"Name":"Just Poké","Star":"4","Category":["Poke", "Hawaiian"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"117 Kirkland Ave, Ste 117, Kirkland, WA 98033"},
-    
     {"Name":"K-Ton Japanese Cuisine","Star":"4","Category":["Japanese Curry", "Ramen"],"Services":["Takeout"],"Address":"31217 Pacific Hwy S, Ste C-103, Federal Way, WA 98003"},
     
     {"Name":"Kahlo’s Cantina","Star":"3.5","Category":["Mexican", "Cocktail Bars"],"Services":["Outdoor dining"],"Address":"102 Main St, Edmonds, WA 98020"},
@@ -757,24 +705,6 @@
     {"Name":"Katsu Burger","Star":"4","Category":["Japanese", "Burgers"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"22618 WA-99, Ste 110, Edmonds, WA 98026"},
     
     {"Name":"Katsu Burger","Star":"4","Category":["Japanese", "Burgers"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"3333 184th St SW, Ste B, Lynnwood, WA 98037"},
-    
-    {"Name":"Katsu Burger","Star":"5","Category":["Japanese", "Burgers"],"Services":["Opened 5 weeks ago", "Delivery", "Takeout"],"Address":"1706 S 320th St, Ste A, Federal Way, WA 98003"},
-    
-    {"Name":"Katsu Burger","Star":"5","Category":["Japanese", "Burgers"],"Services":["Opened 5 weeks ago", "Delivery", "Takeout"],"Address":"22618 WA-99, Ste 110, Edmonds, WA 98026"},
-    
-    {"Name":"Katsu Burger","Star":"5","Category":["Japanese", "Burgers"],"Services":["Opened 5 weeks ago", "Delivery", "Takeout"],"Address":"3333 184th St SW, Ste B, Lynnwood, WA 98037"},
-    
-    {"Name":"Katsu Burger","Star":"4","Category":["Burgers", "Fast Food", "Japanese"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"1706 S 320th St, Ste A, Federal Way, WA 98003"},
-    
-    {"Name":"Katsu Burger","Star":"4","Category":["Burgers", "Fast Food", "Japanese"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"22618 WA-99, Ste 110, Edmonds, WA 98026"},
-    
-    {"Name":"Katsu Burger","Star":"4","Category":["Burgers", "Fast Food", "Japanese"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"3333 184th St SW, Ste B, Lynnwood, WA 98037"},
-    
-    {"Name":"Katsu Burger","Star":"4","Category":["Bakeries", "Japanese", "Burgers"],"Services":["Delivery", "Takeout"],"Address":"1706 S 320th St, Ste A, Federal Way, WA 98003"},
-    
-    {"Name":"Katsu Burger","Star":"4","Category":["Bakeries", "Japanese", "Burgers"],"Services":["Delivery", "Takeout"],"Address":"22618 WA-99, Ste 110, Edmonds, WA 98026"},
-    
-    {"Name":"Katsu Burger","Star":"4","Category":["Bakeries", "Japanese", "Burgers"],"Services":["Delivery", "Takeout"],"Address":"3333 184th St SW, Ste B, Lynnwood, WA 98037"},
     
     {"Name":"Katsu-ya Seattle","Star":"4.5","Category":["Sushi Bars", "Japanese", "Seafood"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"122 Westlake Ave N, Seattle, WA 98109"},
     
@@ -797,30 +727,6 @@
     {"Name":"Kizuki Ramen & Izakaya","Star":"4","Category":["Ramen", "Izakaya"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"320 E Pine St, Seattle, WA 98122"},
     
     {"Name":"Kizuki Ramen & Izakaya","Star":"4","Category":["Ramen", "Izakaya"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"14845 Main St, Bellevue, WA 98007"},
-    
-    {"Name":"Kizuki Ramen & Izakaya","Star":"4","Category":["Ramen", "Izakaya"],"Services":["Delivery", "Takeout"],"Address":"575 Bellevue Way NE, Space 252, Bellevue, WA 98004"},
-    
-    {"Name":"Kizuki Ramen & Izakaya","Star":"4","Category":["Ramen", "Izakaya"],"Services":["Delivery", "Takeout"],"Address":"320 E Pine St, Seattle, WA 98122"},
-    
-    {"Name":"Kizuki Ramen & Izakaya","Star":"4","Category":["Ramen", "Izakaya"],"Services":["Delivery", "Takeout"],"Address":"14845 Main St, Bellevue, WA 98007"},
-    
-    {"Name":"Kizuki Ramen & Izakaya","Star":"4","Category":["Ramen", "Izakaya"],"Services":[],"Address":"575 Bellevue Way NE, Space 252, Bellevue, WA 98004"},
-    
-    {"Name":"Kizuki Ramen & Izakaya","Star":"4","Category":["Ramen", "Izakaya"],"Services":[],"Address":"320 E Pine St, Seattle, WA 98122"},
-    
-    {"Name":"Kizuki Ramen & Izakaya","Star":"4","Category":["Ramen", "Izakaya"],"Services":[],"Address":"14845 Main St, Bellevue, WA 98007"},
-    
-    {"Name":"Kizuki Ramen & Izakaya","Star":"5","Category":["Ramen"],"Services":[],"Address":"575 Bellevue Way NE, Space 252, Bellevue, WA 98004"},
-    
-    {"Name":"Kizuki Ramen & Izakaya","Star":"5","Category":["Ramen"],"Services":[],"Address":"320 E Pine St, Seattle, WA 98122"},
-    
-    {"Name":"Kizuki Ramen & Izakaya","Star":"5","Category":["Ramen"],"Services":[],"Address":"14845 Main St, Bellevue, WA 98007"},
-    
-    {"Name":"Kizuki Ramen & Izakaya","Star":"3.5","Category":["Ramen", "Izakaya"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"575 Bellevue Way NE, Space 252, Bellevue, WA 98004"},
-    
-    {"Name":"Kizuki Ramen & Izakaya","Star":"3.5","Category":["Ramen", "Izakaya"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"320 E Pine St, Seattle, WA 98122"},
-    
-    {"Name":"Kizuki Ramen & Izakaya","Star":"3.5","Category":["Ramen", "Izakaya"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"14845 Main St, Bellevue, WA 98007"},
     
     {"Name":"Kobe Bento Teriyaki","Star":"4","Category":["Japanese"],"Services":["Delivery", "Takeout"],"Address":"18336 Aurora Ave N, Ste 106, Shoreline, WA 98133"},
     
@@ -872,8 +778,6 @@
     
     {"Name":"Leftcraft","Star":"3.5","Category":["Gastropubs", "American (Traditional)"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"519 Main St, Edmonds, WA 98020"},
     
-    {"Name":"Leftcraft","Star":"3.5","Category":["Gastropubs", "American (Traditional)"],"Services":[],"Address":"519 Main St, Edmonds, WA 98020"},
-    
     {"Name":"LifeCafe","Star":"4","Category":["Juice Bars & Smoothies", "Breakfast & Brunch", "American (Traditional)"],"Services":["Delivery", "Takeout"],"Address":"11111 NE 8th St, Bellevue, WA 98004"},
     
     {"Name":"Linh Son Restaurant","Star":"3.5","Category":["Vietnamese"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"31830 Pacific Hwy S, Ste K, Federal Way, WA 98003"},
@@ -899,8 +803,6 @@
     {"Name":"Looking For Chai","Star":"4","Category":["Taiwanese", "Chinese", "Seafood"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"12121 Northup Way, Ste 205, Bellevue, WA 98005"},
     
     {"Name":"Looking For Chai Taiwanese Kitchen","Star":"4","Category":["Taiwanese", "Bubble Tea"],"Services":[],"Address":"22511 Hwy 99, Ste 100, Edmonds, WA 98026"},
-    
-    {"Name":"Looking For Chai Taiwanese Kitchen","Star":"4","Category":["Taiwanese", "Bubble Tea"],"Services":["Delivery", "Takeout"],"Address":"22511 Hwy 99, Ste 100, Edmonds, WA 98026"},
     
     {"Name":"Los Bigotes de Villa","Star":"4.5","Category":["Mexican"],"Services":["Delivery"],"Address":"30420 Pacific Hwy S, Unit 3-4, Federal Way, WA 98003"},
     
@@ -936,8 +838,6 @@
     
     {"Name":"Maize & Barley","Star":"4.5","Category":["Caribbean", "Bars", "Soup"],"Services":[],"Address":"525 Main St, Edmonds, WA 98020"},
     
-    {"Name":"Maize & Barley","Star":"4.5","Category":["Caribbean", "Bars", "Soup"],"Services":["Outdoor dining", "Takeout"],"Address":"525 Main St, Edmonds, WA 98020"},
-    
     {"Name":"Mala & Satay","Star":"4.5","Category":["Vietnamese"],"Services":[],"Address":"224 Fairview Ave N, Seattle, WA 98109"},
     
     {"Name":"Mama Dough","Star":"4","Category":["Chinese", "Noodles", "Soup"],"Services":["Delivery", "Takeout"],"Address":"18230 E Valley Hwy, Ste 156, Kent, WA 98032"},
@@ -968,8 +868,6 @@
     
     {"Name":"Mediterranean Kitchen","Star":"4","Category":["Greek", "Mediterranean", "Halal"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"103 Bellevue Way NE, Ste 103, Bellevue, WA 98004"},
     
-    {"Name":"Mediterranean Kitchen","Star":"4","Category":["Mediterranean", "Lebanese"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"103 Bellevue Way NE, Ste 103, Bellevue, WA 98004"},
-    
     {"Name":"Mediterranean Oasis","Star":"4","Category":["Mediterranean", "Bakeries", "International Grocery"],"Services":["Delivery", "Takeout"],"Address":"15238 Aurora Ave N, Shoreline, WA 98133"},
     
     {"Name":"Meekong Bar","Star":"4.5","Category":["Vietnamese", "Asian Fusion", "Soup"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"2525 4th Ave, Seattle, WA 98121"},
@@ -992,8 +890,6 @@
     
     {"Name":"Mioposto","Star":"4","Category":["Pizza", "Italian", "Breakfast & Brunch"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"2601 76th Ave SE, Mercer Island, WA 98040"},
     
-    {"Name":"Mioposto","Star":"4","Category":["Italian", "Pizza", "Breakfast & Brunch"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"2601 76th Ave SE, Mercer Island, WA 98040"},
-    
     {"Name":"Mirak Korean BBQ Restaurant","Star":"3.5","Category":["Korean", "Barbeque"],"Services":["Delivery", "Takeout"],"Address":"31260 Pacific Hwy S, Ste 1, Federal Way, WA 98003"},
     
     {"Name":"Miyabi Restaurant","Star":"4","Category":["Japanese", "Sushi Bars"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"16820 Southcenter Pkwy, Tukwila, WA 98188"},
@@ -1001,10 +897,6 @@
     {"Name":"mkt.","Star":"4.5","Category":["American (New)"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"2108 N 55th St, Seattle, WA 98103"},
     
     {"Name":"MOD Pizza","Star":"4","Category":["Pizza", "Fast Food"],"Services":["Delivery", "Takeout"],"Address":"417 Ramsay Way, Kent, WA 98032"},
-    
-    {"Name":"MOD Pizza","Star":"3","Category":["Pizza", "Fast Food"],"Services":["Delivery", "Takeout"],"Address":"417 Ramsay Way, Kent, WA 98032"},
-    
-    {"Name":"MOD Pizza","Star":"3.5","Category":["Fast Food", "Pizza"],"Services":["Delivery", "Takeout"],"Address":"417 Ramsay Way, Kent, WA 98032"},
     
     {"Name":"Modoo Restaurant","Star":"4.5","Category":["Korean", "Soul Food"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"18601 Hwy 99, Ste 100, Lynnwood, WA 98037"},
     
@@ -1043,14 +935,6 @@
     {"Name":"Musashi’s","Star":"4","Category":["Japanese", "Sushi Bars"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"7405 168th Ave NE, Ste 150, Redmond, WA 98052"},
     
     {"Name":"Musashi’s","Star":"4","Category":["Japanese", "Sushi Bars"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"2200 W Meeker St, Ste Y-104, Kent, WA 98032"},
-    
-    {"Name":"Musashi’s","Star":"4","Category":["Japanese", "Sushi Bars"],"Services":["Delivery", "Takeout"],"Address":"7405 168th Ave NE, Ste 150, Redmond, WA 98052"},
-    
-    {"Name":"Musashi’s","Star":"4","Category":["Japanese", "Sushi Bars"],"Services":["Delivery", "Takeout"],"Address":"2200 W Meeker St, Ste Y-104, Kent, WA 98032"},
-    
-    {"Name":"Musashi’s","Star":"4.5","Category":["Sushi Bars", "Japanese"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"7405 168th Ave NE, Ste 150, Redmond, WA 98052"},
-    
-    {"Name":"Musashi’s","Star":"4.5","Category":["Sushi Bars", "Japanese"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"2200 W Meeker St, Ste Y-104, Kent, WA 98032"},
     
     {"Name":"Muto Izakaya Restaurant","Star":"4","Category":["Sushi Bars", "Ramen", "Izakaya"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"19505 44th Ave W, Ste K, Lynnwood, WA 98036"},
     
@@ -1099,8 +983,6 @@
     {"Name":"Old Village","Star":"3","Category":["Korean", "Barbeque"],"Services":[],"Address":"15200 Aurora Ave N, Ste D, Seattle, WA 98133"},
     
     {"Name":"Olive Garden Italian Restaurant","Star":"3","Category":["Italian", "Salad", "Soup"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"35030 Enchanted Pkwy, Federal Way, WA 98003"},
-    
-    {"Name":"Olive Garden Italian Restaurant","Star":"3","Category":["Italian", "Salad", "Soup"],"Services":["Delivery", "Takeout"],"Address":"35030 Enchanted Pkwy, Federal Way, WA 98003"},
     
     {"Name":"Olive Tree Mediterranean Restaurant","Star":"4","Category":["Mediterranean", "Middle Eastern", "Greek"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"12930 SE Kent Kangley Rd, Kent, WA 98030"},
     
@@ -1176,10 +1058,6 @@
     
     {"Name":"Pike Place Chowder","Star":"4.5","Category":["Seafood", "Soup"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"1530 Post Aly, Ste 11, Seattle, WA 98101"},
     
-    {"Name":"Pike Place Chowder","Star":"4","Category":["Seafood", "Soup", "American (Traditional)"],"Services":["Delivery", "Takeout"],"Address":"600 Pine St, Fl 4, Seattle, WA 98101"},
-    
-    {"Name":"Pike Place Chowder","Star":"4","Category":["Seafood", "Soup", "American (Traditional)"],"Services":["Delivery", "Takeout"],"Address":"1530 Post Aly, Ste 11, Seattle, WA 98101"},
-    
     {"Name":"Pimienta Bistro & Bar","Star":"4.5","Category":["Latin American", "Modern European"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"34029 Hoyt Rd SW, Ste C, Federal Way, WA 98023"},
     
     {"Name":"Pink Salt Restaurant","Star":"4.5","Category":["Peruvian", "Bars", "Desserts"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"3321 W McGraw St, Seattle, WA 98199"},
@@ -1208,8 +1086,6 @@
     
     {"Name":"Puerto Vallarta Restaurant","Star":"3","Category":["Mexican"],"Services":["Delivery", "Takeout"],"Address":"2002 SW Campus Dr, Federal Way, WA 98023"},
     
-    {"Name":"Puerto Vallarta Restaurant","Star":"3.5","Category":["Mexican"],"Services":[],"Address":"2002 SW Campus Dr, Federal Way, WA 98023"},
-    
     {"Name":"Pupuseria and Taqueria La Princesa","Star":"3.5","Category":["Salvadoran", "Mexican"],"Services":[],"Address":"1805 S 316th St, A101, Federal Way, WA 98003"},
     
     {"Name":"Purple Cafe and Wine Bar","Star":"4","Category":["American (New)", "Wine Bars"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"14459 Woodinville Redmond Rd NE, Woodinville, WA 98072"},
@@ -1217,8 +1093,6 @@
     {"Name":"Purple Café and Wine Bar","Star":"4","Category":["American (New)", "Wine Bars", "Desserts"],"Services":["Delivery"],"Address":"1225 4th Ave, Seattle, WA 98101"},
     
     {"Name":"Q Sushi Bar & Kitchen","Star":"5","Category":["Japanese", "Sushi Bars", "Salad"],"Services":["Outdoor dining"],"Address":"20101 44th Ave W, Ste E, Lynnwood, WA 98036"},
-    
-    {"Name":"Q Sushi Bar & Kitchen","Star":"5","Category":["Japanese", "Sushi Bars", "Salad"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"20101 44th Ave W, Ste E, Lynnwood, WA 98036"},
     
     {"Name":"Queen Bee Cafe","Star":"4","Category":["Coffee & Tea", "Breakfast & Brunch", "Sandwiches"],"Services":["Takeout"],"Address":"8805 Points Dr NE, Clyde Hill, WA 98004"},
     
@@ -1260,14 +1134,6 @@
     
     {"Name":"Rusty Pelican Cafe","Star":"4.5","Category":["Breakfast & Brunch"],"Services":["Opened 3 months ago", "Outdoor dining", "Takeout"],"Address":"15704 Mill Creek Blvd, Mill Creek, WA 98012"},
     
-    {"Name":"Rusty Pelican Cafe","Star":"4","Category":["Cafes", "American (Traditional)", "Breakfast & Brunch"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"13590 NE Village Square Dr, Ste 1060, Woodinville, WA 98072"},
-    
-    {"Name":"Rusty Pelican Cafe","Star":"4","Category":["Cafes", "American (Traditional)", "Breakfast & Brunch"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"15704 Mill Creek Blvd, Mill Creek, WA 98012"},
-    
-    {"Name":"Rusty Pelican Cafe","Star":"4","Category":["Desserts", "Breakfast & Brunch", "Cafes"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"13590 NE Village Square Dr, Ste 1060, Woodinville, WA 98072"},
-    
-    {"Name":"Rusty Pelican Cafe","Star":"4","Category":["Desserts", "Breakfast & Brunch", "Cafes"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"15704 Mill Creek Blvd, Mill Creek, WA 98012"},
-    
     {"Name":"S/T Hooligans","Star":"5","Category":["Cajun/Creole", "Burgers", "American (New)"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"4354 Leary Way NW, Seattle, WA 98107"},
     
     {"Name":"Sabai Sabai Lao & Thai Cuisine","Star":"4.5","Category":["Laotian", "Thai"],"Services":["Delivery", "Takeout"],"Address":"1120 164th St SW, Lynnwood, WA 98087"},
@@ -1275,8 +1141,6 @@
     {"Name":"Saffron Grill","Star":"4","Category":["Indian", "Mediterranean", "Bars"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"2132 N Northgate Way, Seattle, WA 98133"},
     
     {"Name":"Sahm Gook Jih Palace","Star":"4","Category":["Asian Fusion", "Chinese", "Korean"],"Services":[],"Address":"21619 Hwy 99, Ste J, Lynnwood, WA 98036"},
-    
-    {"Name":"Saigon Soul Vietnamese Restaurant","Star":"4","Category":["Vietnamese", "Noodles", "Soup"],"Services":["Delivery", "Takeout"],"Address":"24202 104th Ave SE, Kent, WA 98030"},
     
     {"Name":"Saimin Says","Star":"4.5","Category":["Hawaiian", "Noodles", "Breakfast & Brunch"],"Services":["Delivery", "Takeout"],"Address":"269 SW 41st St, Renton, WA 98057"},
     
@@ -1290,8 +1154,6 @@
     
     {"Name":"Sam’s Tavern","Star":"3","Category":["Burgers", "Sports Bars", "Breakfast & Brunch"],"Services":["Outdoor dining"],"Address":"931 108th Ave NE, Bellevue, WA 98004"},
     
-    {"Name":"Sam’s Tavern","Star":"3.5","Category":["Bars", "Burgers", "American (New)"],"Services":[],"Address":"931 108th Ave NE, Bellevue, WA 98004"},
-    
     {"Name":"San Fernando Roasted Chicken","Star":"4","Category":["Peruvian", "Chicken Shop"],"Services":[],"Address":"20815 67th Ave W, Lynnwood, WA 98036"},
     
     {"Name":"San Kai","Star":"4","Category":["Sushi Bars"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"111 4th Ave N, Edmonds, WA 98020"},
@@ -1301,10 +1163,6 @@
     {"Name":"Sandwich House TRES","Star":"4.5","Category":["Japanese", "Sandwiches"],"Services":[],"Address":"1502 145th Pl SE, Bellevue, WA 98007"},
     
     {"Name":"Santa Fe Mexican Grill & Cantina","Star":"4","Category":["Mexican"],"Services":["Takeout"],"Address":"630 NW Richmond Beach Rd, Seattle, WA 98177"},
-    
-    {"Name":"Santa Fe Mexican Grill & Cantina","Star":"3.5","Category":["Mexican", "Beer Bar", "Cocktail Bars"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"630 NW Richmond Beach Rd, Seattle, WA 98177"},
-    
-    {"Name":"Santa Fe Mexican Grill & Cantina","Star":"4","Category":["Mexican", "Beer Bar", "Cocktail Bars"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"630 NW Richmond Beach Rd, Seattle, WA 98177"},
     
     {"Name":"Santa Fe Mexican Grill & Cantina- Totem Lake","Star":"4","Category":["Mexican"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"12709 NE 124th St, Kirkland, WA 98034"},
     
@@ -1322,17 +1180,11 @@
     
     {"Name":"Señor Taco","Star":"4.5","Category":["Tacos"],"Services":[],"Address":"14339 NE 20th St, Unit D, Bellevue, WA 98007"},
     
-    {"Name":"Señor Taco","Star":"4.5","Category":["Tacos"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"33120 Pacific Hwy S, Ste 1, Federal Way, WA 98003"},
-    
-    {"Name":"Señor Taco","Star":"4.5","Category":["Tacos"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"14339 NE 20th St, Unit D, Bellevue, WA 98007"},
-    
     {"Name":"SenSen Ramen & Katsu","Star":"4.5","Category":["Ramen", "Korean"],"Services":["Delivery", "Takeout"],"Address":"17424 Hwy 99, Ste 105, Lynnwood, WA 98037"},
     
     {"Name":"Seoul Bowl & Bar","Star":"4.5","Category":["Korean", "Barbeque", "Chicken Wings"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"722 12th Ave, Seattle, WA 98122"},
     
     {"Name":"Seoul Hotdog","Star":"5","Category":["Hot Dogs", "Korean"],"Services":["Opened 4 weeks ago"],"Address":"18415 33rd Ave W, Ste F, Lynnwood, WA 98037"},
-    
-    {"Name":"Seoul Hotdog","Star":"4.5","Category":["Korean", "Hot Dogs", "Fast Food"],"Services":["Outdoor dining", "Takeout"],"Address":"18415 33rd Ave W, Ste F, Lynnwood, WA 98037"},
     
     {"Name":"Shabu Shabu Kyoto Japanese Restaurant","Star":"4","Category":["Japanese", "Hot Pot", "Do-It-Yourself Food", "Wine Bars"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"627 156th Ave SE, Bellevue, WA 98007"},
     
@@ -1351,10 +1203,6 @@
     {"Name":"Shibu Ramen","Star":"4","Category":["Ramen", "Noodles"],"Services":["Delivery", "Takeout"],"Address":"9733 NE 117th Ln, Kirkland, WA 98034"},
     
     {"Name":"Shibu Ramen","Star":"4","Category":["Ramen", "Noodles"],"Services":["Delivery", "Takeout"],"Address":"437 Ramsay Way, Kent, WA 98032"},
-    
-    {"Name":"Shibu Ramen","Star":"3.5","Category":["Ramen", "Wine Bars", "Noodles"],"Services":["Delivery", "Takeout"],"Address":"9733 NE 117th Ln, Kirkland, WA 98034"},
-    
-    {"Name":"Shibu Ramen","Star":"3.5","Category":["Ramen", "Wine Bars", "Noodles"],"Services":["Delivery", "Takeout"],"Address":"437 Ramsay Way, Kent, WA 98032"},
     
     {"Name":"Shin Sung Restaurant","Star":"3.5","Category":["Korean", "Barbeque"],"Services":[],"Address":"1805 S 316th St, Federal Way, WA 98003"},
     
@@ -1430,10 +1278,6 @@
     
     {"Name":"Stone Korean Restaurant","Star":"4","Category":["Korean", "Asian Fusion"],"Services":["Delivery", "Takeout"],"Address":"16857 Redmond Way, Redmond, WA 98052"},
     
-    {"Name":"Stone Korean Restaurant","Star":"4","Category":["Korean", "Barbeque", "Asian Fusion"],"Services":["Delivery", "Takeout"],"Address":"900 Dexter Ave N, Seattle, WA 98109"},
-    
-    {"Name":"Stone Korean Restaurant","Star":"4","Category":["Korean", "Barbeque", "Asian Fusion"],"Services":["Delivery", "Takeout"],"Address":"16857 Redmond Way, Redmond, WA 98052"},
-    
     {"Name":"Streetzeria","Star":"4.5","Category":["Pizza", "Italian"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"1857 NW 195th St, Shoreline, WA 98177"},
     
     {"Name":"Sultan Gyro and Shawarma Grill","Star":"4.5","Category":["Mediterranean"],"Services":["Delivery"],"Address":"17505 Aurora Ave N, Shoreline, WA 98133"},
@@ -1460,17 +1304,11 @@
     
     {"Name":"Szechuan Cuisine","Star":"4.5","Category":["Szechuan", "Asian Fusion"],"Services":[],"Address":"23202 57th Ave W, Ste 4627, Mountlake Terrace, WA 98043"},
     
-    {"Name":"Szechuan Cuisine","Star":"4.5","Category":["Szechuan", "Asian Fusion"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"23202 57th Ave W, Ste 4627, Mountlake Terrace, WA 98043"},
-    
     {"Name":"Ta Joia","Star":"5","Category":["Asian Fusion", "Korean"],"Services":["Outdoor dining", "Takeout"],"Address":"22833 Bothell Everett Hwy, Ste 151, Bothell, WA 98021"},
-    
-    {"Name":"Ta Joia","Star":"5","Category":["Asian Fusion", "Korean"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"22833 Bothell Everett Hwy, Ste 151, Bothell, WA 98021"},
     
     {"Name":"Tabassum","Star":"4.5","Category":["Food Trucks", "Uzbek", "Halal"],"Services":[],"Address":"Kirkland, WA 98033"},
     
     {"Name":"Tacos Chukis","Star":"4.5","Category":["Mexican"],"Services":["Takeout"],"Address":"832 Dexter Ave N, Seattle, WA 98109"},
-    
-    {"Name":"Tacos Chukis","Star":"4.5","Category":["Tacos", "Sandwiches"],"Services":["Takeout"],"Address":"832 Dexter Ave N, Seattle, WA 98109"},
     
     {"Name":"Tacos Mexico","Star":"5","Category":["Mexican"],"Services":["Outdoor dining"],"Address":"24608 36th Ave S, Kent, WA 98032"},
     
@@ -1489,10 +1327,6 @@
     {"Name":"Tanoor","Star":"4.5","Category":["Lebanese", "Mediterranean", "Halal"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"803 Dexter Ave N, Seattle, WA 98109"},
     
     {"Name":"Tanoor","Star":"4.5","Category":["Lebanese", "Mediterranean", "Halal"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"22610 SE 4th St, Ste 400, Sammamish, WA 98974"},
-    
-    {"Name":"Tanoor","Star":"4","Category":["Lebanese", "Mediterranean", "Halal"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"803 Dexter Ave N, Seattle, WA 98109"},
-    
-    {"Name":"Tanoor","Star":"4","Category":["Lebanese", "Mediterranean", "Halal"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"22610 SE 4th St, Ste 400, Sammamish, WA 98974"},
     
     {"Name":"Tapas Lab","Star":"4.5","Category":["Tapas/Small Plates", "Spanish", "Asian Fusion"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"7012 Woodlawn Ave NE, Unit 3B, Seattle, WA 98115"},
     
@@ -1522,10 +1356,6 @@
     
     {"Name":"Taste of Europe","Star":"3.5","Category":["Grocery", "Imported Food", "Delis"],"Services":[],"Address":"24225 104th Ave SE, Kent, WA 98030"},
     
-    {"Name":"Taste Rice Noodle","Star":"4.5","Category":["Chinese", "Noodles"],"Services":["Delivery", "Takeout"],"Address":"22315 Hwy 99, Ste L, Edmonds, WA 98026"},
-    
-    {"Name":"Taste Rice Noodle","Star":"4.5","Category":["Chinese", "Noodles"],"Services":[],"Address":"22315 Hwy 99, Ste L, Edmonds, WA 98026"},
-    
     {"Name":"Tasty Pot","Star":"4","Category":["Taiwanese", "Hot Pot", "Bubble Tea"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"1295 N 205th St, Shoreline, WA 98133"},
     
     {"Name":"Taurus Ox","Star":"4.5","Category":["Laotian", "Asian Fusion", "Noodles"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"1523 E Madison St, Ste 101, Seattle, WA 98122"},
@@ -1541,14 +1371,6 @@
     {"Name":"Taylor Shellfish Oyster Bar","Star":"4","Category":["Seafood", "Bars", "Seafood Markets"],"Services":["Delivery", "Takeout"],"Address":"410 Occidental Ave S, Seattle, WA 98104"},
     
     {"Name":"Taylor Shellfish Oyster Bar","Star":"4","Category":["Seafood", "Bars", "Seafood Markets"],"Services":["Delivery", "Takeout"],"Address":"124 Republican St, Seattle, WA 98109"},
-    
-    {"Name":"Taylor Shellfish Oyster Bar","Star":"4.5","Category":["Seafood", "Live/Raw Food"],"Services":["Waitlist opens at 3:00 pm"],"Address":"410 Occidental Ave S, Seattle, WA 98104"},
-    
-    {"Name":"Taylor Shellfish Oyster Bar","Star":"4.5","Category":["Seafood", "Live/Raw Food"],"Services":["Waitlist opens at 3:00 pm"],"Address":"124 Republican St, Seattle, WA 98109"},
-    
-    {"Name":"Taylor Shellfish Oyster Bar","Star":"4.5","Category":["Seafood", "Live/Raw Food"],"Services":["Live wait time: 0 mins"],"Address":"410 Occidental Ave S, Seattle, WA 98104"},
-    
-    {"Name":"Taylor Shellfish Oyster Bar","Star":"4.5","Category":["Seafood", "Live/Raw Food"],"Services":["Live wait time: 0 mins"],"Address":"124 Republican St, Seattle, WA 98109"},
     
     {"Name":"Teinei","Star":"4","Category":["Sushi Bars", "Ramen", "Izakaya"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"1256 Republican St, South Lake Union, Seattle, WA 98109"},
     
@@ -1606,14 +1428,6 @@
     
     {"Name":"The French Bakery","Star":"4","Category":["Bakeries", "Cafes", "Patisserie/Cake Shop"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"909 112th Ave NE, Ste 106, Bellevue, WA 98004"},
     
-    {"Name":"The French Bakery","Star":"4","Category":["Bakeries", "Coffee & Tea", "Sandwiches"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"219 Kirkland Ave, ste 102, Kirkland, WA 98033"},
-    
-    {"Name":"The French Bakery","Star":"4","Category":["Bakeries", "Coffee & Tea", "Sandwiches"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"909 112th Ave NE, Ste 106, Bellevue, WA 98004"},
-    
-    {"Name":"The French Bakery","Star":"3.5","Category":["Bakeries", "Patisserie/Cake Shop", "Cafes"],"Services":["Outdoor dining", "Takeout"],"Address":"219 Kirkland Ave, ste 102, Kirkland, WA 98033"},
-    
-    {"Name":"The French Bakery","Star":"3.5","Category":["Bakeries", "Patisserie/Cake Shop", "Cafes"],"Services":["Outdoor dining", "Takeout"],"Address":"909 112th Ave NE, Ste 106, Bellevue, WA 98004"},
-    
     {"Name":"The Fry Guys","Star":"4.5","Category":["Southern", "Cheesesteaks", "Fast Food"],"Services":["Delivery", "Takeout"],"Address":"1760 1st Ave S, Seattle, WA 98134"},
     
     {"Name":"The Frying Dutchman","Star":"4.5","Category":["Fish & Chips", "Food Trucks"],"Services":["Outdoor dining"],"Address":"1203 Porter Way, Milton, WA 98354"},
@@ -1629,10 +1443,6 @@
     {"Name":"The Habit Burger Grill","Star":"4","Category":["Burgers", "Sandwiches", "Salad"],"Services":["Delivery", "Takeout"],"Address":"1253 N 205th St, Shoreline, WA 98133"},
     
     {"Name":"The Habit Burger Grill","Star":"4","Category":["Burgers", "Sandwiches", "Salad"],"Services":["Delivery", "Takeout"],"Address":"12900 SE Kent-Kangley Rd, Kent, WA 98030"},
-    
-    {"Name":"The Habit Burger Grill","Star":"3.5","Category":["Salad", "Burgers", "Sandwiches"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"1253 N 205th St, Shoreline, WA 98133"},
-    
-    {"Name":"The Habit Burger Grill","Star":"3.5","Category":["Salad", "Burgers", "Sandwiches"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"12900 SE Kent-Kangley Rd, Kent, WA 98030"},
     
     {"Name":"The Hart and The Hunter","Star":"4","Category":["Southern", "Breakfast & Brunch", "Cocktail Bars"],"Services":["Delivery", "Takeout"],"Address":"111 Pine St, Seattle, WA 98101"},
     
@@ -1662,8 +1472,6 @@
     
     {"Name":"The Pizza Coop & Ale House","Star":"4","Category":["Pizza", "Sports Bars", "Sandwiches"],"Services":["Outdoor dining", "Takeout"],"Address":"13317 NE 175th St, Woodinville, WA 98072"},
     
-    {"Name":"The Potlatch Bistro","Star":"3","Category":["Seafood"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"220 Railroad Ave, Edmonds Waterfront Center, Edmonds, WA 98020"},
-    
     {"Name":"The Pumphouse Bar & Grill","Star":"4","Category":["American (Traditional)", "Breakfast & Brunch", "Cocktail Bars"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"11802 NE 8th St, Bellevue, WA 98005"},
     
     {"Name":"The Quarterdeck","Star":"5","Category":["Cafes", "Wine Bars"],"Services":["Outdoor dining", "Delivery"],"Address":"22307 Dock Ave S, Unit 1, Des Moines, WA 98198"},
@@ -1673,8 +1481,6 @@
     {"Name":"The Shambles","Star":"4.5","Category":["Beer Bar", "American (New)"],"Services":["Delivery", "Takeout"],"Address":"7777 15th Ave NE, Seattle, WA 98115"},
     
     {"Name":"The Stone House","Star":"4.5","Category":["American (New)"],"Services":[],"Address":"16244 Cleveland St, Redmond, WA 98052"},
-    
-    {"Name":"The Stone House","Star":"4.5","Category":["American (New)"],"Services":["Outdoor dining", "Takeout"],"Address":"16244 Cleveland St, Redmond, WA 98052"},
     
     {"Name":"The Third Place","Star":"4.5","Category":["Korean", "Barbeque", "Chicken Shop"],"Services":["Takeout"],"Address":"7844 Leary Way NE, Ste 110, Redmond, WA 98052"},
     
@@ -1690,10 +1496,6 @@
     
     {"Name":"Tian Fu","Star":"4.5","Category":["Chinese", "Seafood", "Soup"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"300 NE Northgate Way, Seattle, WA 98125"},
     
-    {"Name":"Tian Fu","Star":"4","Category":["Chinese"],"Services":["Opened 2 months ago"],"Address":"300 NE Northgate Way, Seattle, WA 98125"},
-    
-    {"Name":"Tian Fu","Star":"4","Category":["Chinese"],"Services":["Opened 2 months ago", "Delivery", "Takeout"],"Address":"300 NE Northgate Way, Seattle, WA 98125"},
-    
     {"Name":"Tian Tian Noodles","Star":"4","Category":["Noodles", "Chinese"],"Services":["Delivery", "Takeout"],"Address":"16421 Cleveland St, Ste E, Redmond, WA 98052"},
     
     {"Name":"Tides","Star":"1","Category":["Seafood"],"Services":[],"Address":"25205 Saltwater Park Rd, Des Moines, WA 98198"},
@@ -1705,8 +1507,6 @@
     {"Name":"Tipsy Cow Burger Bar - Redmond","Star":"4","Category":["Burgers", "Bars"],"Services":["Live wait time: 0 mins", "Outdoor dining", "Delivery", "Takeout"],"Address":"16325 Cleveland St, Redmond, WA 98052"},
     
     {"Name":"Todo Mexico","Star":"3.5","Category":["Mexican"],"Services":["Delivery"],"Address":"19953 Ballinger Way NE, Shoreline, WA 98155"},
-    
-    {"Name":"Todo Mexico","Star":"3.5","Category":["Mexican"],"Services":["Delivery", "Takeout"],"Address":"19953 Ballinger Way NE, Shoreline, WA 98155"},
     
     {"Name":"Tofu 101","Star":"4","Category":["Chinese", "Taiwanese", "Delis"],"Services":["Outdoor dining", "Takeout"],"Address":"12816 SE 38th St, Ste G, Bellevue, WA 98006"},
     
@@ -1726,10 +1526,6 @@
     
     {"Name":"Traditional Korean Beef Soup","Star":"4","Category":["Korean", "Soup"],"Services":["Delivery"],"Address":"31248 Pacific Hwy S, Ste E, Federal Way, WA 98003"},
     
-    {"Name":"Traditional Korean Beef Soup","Star":"4.5","Category":["Korean", "Soup"],"Services":["Delivery"],"Address":"22929 Hwy 99, Edmonds, WA 98026"},
-    
-    {"Name":"Traditional Korean Beef Soup","Star":"4.5","Category":["Korean", "Soup"],"Services":["Delivery"],"Address":"31248 Pacific Hwy S, Ste E, Federal Way, WA 98003"},
-    
     {"Name":"Triumph Valley","Star":"4","Category":["Dim Sum", "Hot Pot", "Cocktail Bars"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"3750 E Valley Rd, Renton, WA 98057"},
     
     {"Name":"Tropea Ristorante Italiano","Star":"4","Category":["Italian", "Pizza"],"Services":["Takeout"],"Address":"16156 NE 87th St, Redmond, WA 98052"},
@@ -1742,13 +1538,7 @@
     
     {"Name":"Tubs Gourmet Subs","Star":"4.5","Category":["Sandwiches"],"Services":["Delivery", "Takeout"],"Address":"4400 168th St SW, Ste 201, Lynnwood, WA 98037"},
     
-    {"Name":"Tubs Gourmet Subs","Star":"4.5","Category":["Sandwiches"],"Services":[],"Address":"11064 Lake City Way NE, Ste 16, Seattle, WA 98125"},
-    
-    {"Name":"Tubs Gourmet Subs","Star":"4.5","Category":["Sandwiches"],"Services":[],"Address":"4400 168th St SW, Ste 201, Lynnwood, WA 98037"},
-    
     {"Name":"U Lin Asian Bistro","Star":"3.5","Category":["Cantonese", "Asian Fusion", "Dim Sum"],"Services":["Delivery", "Takeout"],"Address":"1120 164th St SW, Ste F, Lynnwood, WA 98087"},
-    
-    {"Name":"Ubuntu Street Café","Star":"5","Category":["Cafes", "Community Service/Non-Profit", "Caterers"],"Services":["Delivery", "Takeout"],"Address":"202 W Gowe St, Kent, WA 98032"},
     
     {"Name":"Umami Kushi","Star":"5","Category":["Japanese", "Caterers"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"9099 Seward Park Ave S, Seattle, WA 98118"},
     
@@ -1766,8 +1556,6 @@
     
     {"Name":"Vinason Pho & Grill","Star":"4","Category":["Vietnamese", "Macarons", "Sandwiches"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"6621 S 211th St, Kent, WA 98032"},
     
-    {"Name":"Vinason Pho & Grill","Star":"4","Category":["Vietnamese", "Macarons", "Sandwiches"],"Services":["Delivery", "Takeout"],"Address":"6621 S 211th St, Kent, WA 98032"},
-    
     {"Name":"Vinason Pho Kitchen","Star":"4.5","Category":["Vietnamese", "Macarons", "Sandwiches"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"499 Urban Plz, Kirkland, WA 98033"},
     
     {"Name":"Vinbero","Star":"4.5","Category":["Cheese Shops", "Cafes", "Wine Bars"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"203 5th Ave S, Ste 1, Edmonds, WA 98020"},
@@ -1783,10 +1571,6 @@
     {"Name":"Vons Chicken","Star":"4","Category":["Chicken Shop", "Chicken Wings"],"Services":["Delivery", "Takeout"],"Address":"1400 S 312th St, Ste 1, Federal Way, WA 98003"},
     
     {"Name":"Vons Chicken","Star":"4","Category":["Chicken Shop", "Chicken Wings"],"Services":["Delivery", "Takeout"],"Address":"22511 Hwy 99, Ste 102, Edmonds, WA 98026"},
-    
-    {"Name":"Vons Chicken","Star":"4.5","Category":["Korean", "Chicken Shop"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"1400 S 312th St, Ste 1, Federal Way, WA 98003"},
-    
-    {"Name":"Vons Chicken","Star":"4.5","Category":["Korean", "Chicken Shop"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"22511 Hwy 99, Ste 102, Edmonds, WA 98026"},
     
     {"Name":"Vovina","Star":"4","Category":["Wine Bars", "Tapas/Small Plates", "Cocktail Bars"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"15 Lake St, Ste 103, Kirkland, WA 98033"},
     
@@ -1823,8 +1607,6 @@
     {"Name":"Woodinville Cafe","Star":"4","Category":["Breakfast & Brunch", "American (Traditional)", "Diners"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"14170 NE Woodinville Duvall Rd, Woodinville, WA 98072"},
     
     {"Name":"Woodinville Cut Shop","Star":"3.5","Category":["American (Traditional)", "Lounges"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"12801 NE 175th St, Woodinville, WA 98072"},
-    
-    {"Name":"Wow Bao","Star":"3.5","Category":["Food Delivery Services", "Chinese"],"Services":["Delivery"],"Address":"825 NE Northgate Way, Seattle, WA 98125"},
     
     {"Name":"WuJu KBBQ","Star":"3.5","Category":["Korean", "Barbeque"],"Services":["Outdoor dining", "Delivery", "Takeout"],"Address":"19400 36th Ave W, Ste 102, Lynnwood, WA 98036"},
     
