@@ -6,6 +6,7 @@ export function NavBar(props) {
     return (
         <nav>
             <ul>
+                <a href="">Welcome</a>
                 <a href="">Home</a>
                 <a href="">List</a>
                 <a href="">Map</a>
