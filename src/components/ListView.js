@@ -3,11 +3,12 @@ import React from 'react';
 
 
 export function ListView(props){
-    const LISTS_EXAMPLE = ['Favorites', 'Want to try', 'Great burger places', 'Teriyaki places'];
-    
-    let createdUsersLists = LISTS_EXAMPLE.map((listName, index) =>{
+
+    let createdUsersLists = props.listNames.map((listName, index) =>{
         return <div key={index + listName}  className='listName'>{listName}</div>  
     });
+
+
 
 
     const FAVORITES_EXAMPLE = [
@@ -22,7 +23,7 @@ export function ListView(props){
             <h2>{restaurantObj.Name}</h2>
             {/* Lists out the categories */}
             <p>Category: {restaurantObj.Category.map((category)=>{
-                return(category+" ");
+                return(category+", ");
             })}</p>
             <p>Address: {restaurantObj.Address}</p>
             <div className="input-group mb-3">
