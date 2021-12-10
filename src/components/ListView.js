@@ -1,14 +1,29 @@
 import React from 'react';
+import { useState } from 'react';
 
 
 
-export function ListView(props){
+export function ListView({listNames, setIsCreatingList, isCreatingList, addNewList}){
 
-    let createdUsersLists = props.listNames.map((listName, index) =>{
+    const[queryText, setQueryText] = useState('');
+
+    let createdUsersLists = listNames.map((listName, index) =>{
         return <div key={index + listName}  className='listName'>{listName}</div>  
     });
 
+    const handleClick = () => {
+        setIsCreatingList(true);
+    }
 
+    const handleChange = (event) => {
+        setQueryText(event.target.value);
+    }
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        addNewList(queryText);
+        setQueryText('')
+    }
 
 
     const FAVORITES_EXAMPLE = [
@@ -27,25 +42,31 @@ export function ListView(props){
             })}</p>
             <p>Address: {restaurantObj.Address}</p>
             <div className="input-group mb-3">
-                <button className="btn btn-light btn-outline-secondary" type="submit" >Submit</button>
+                <button className="btn btn-light btn-outline-secondary" type="submit">Submit</button>
                 <input type="text" className="form-control" placeholder="Leave a comment" aria-label="Example text with button addon" aria-describedby="button-addon1"/>
             </div>
         </div>  );
     });
 
     return(
-    <div>
     <section className="userLists">
         <h1>My Recent Lists</h1>
             <div className="userListsDivHorizontal">
                 {createdUsersLists}
-                <div className="listName">+ Create List</div>
+                {isCreatingList && <div >
+                                        <form className="form-inline" className="userListsDivHorizontal" onSubmit={handleSubmit} >
+                                            <div className="form-group mb-2">
+                                                <input type="text" className="form-control" placeholder="Enter a list name"
+                                                    value={queryText} onChange={handleChange}/>
+                                            </div>
+                                            <button type="submit" className="btn btn-primary">Create!</button>
+                                        </form>
+                                    </div>}
+                {!isCreatingList && <div className="listName" onClick={handleClick}>+ Create List</div> }
             </div> 
+        {restaurantInCurrentList}
     </section>
 
-    {restaurantInCurrentList}
-       
-    </div>
     
     );
 }

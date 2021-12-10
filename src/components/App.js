@@ -17,6 +17,7 @@ function App(props) {
     const [listNames, setListNames] = useState(['Favorites']); //monitors existing lists
     const [searchData, setSearchData] = useState(props.restaurantData);
     const [clickedRestaurant, setClickedRestaurant] = useState([{Name:"", Star:"", Category:[], Services:[], Address :""}]);
+    const [isCreatingList, setIsCreatingList] = useState(false);
 
     function getRestaurantSearchData(searchName) {
         let filteredRestaurants = props.restaurantData.filter((restaurantObj) => {
@@ -36,6 +37,12 @@ function App(props) {
         setClickedRestaurant(restaurantObj);
     }
 
+    function addNewList(listName) {
+        let newListNames = [...listNames, listName];
+        setListNames(newListNames);
+        setIsCreatingList(false);
+    }
+
     const RECENT_EXAMPLE = ['Favorites', 'Want to try', 'Great burger places', 'Teriyaki places'];
 
     return (
@@ -51,7 +58,7 @@ function App(props) {
                 <Switch>
                     <Route path='/home'>        
                         <div className='containerMain'>
-                            <MyRecentLists recents ={RECENT_EXAMPLE}/>
+                            <MyRecentLists recents ={listNames}/>
                             <Recommended />
                         </div>
                     </Route>
@@ -59,7 +66,7 @@ function App(props) {
                         <Map />
                     </Route>
                     <Route path='/list'>
-                        {<ListView listNames={listNames}/> }
+                        {<ListView listNames={listNames} setIsCreatingList={setIsCreatingList} isCreatingList={isCreatingList} addNewList={addNewList}/> }
                     </Route>
                     <Route path='/search'>
                         <SearchForm searchCallback={getRestaurantSearchData}/>
