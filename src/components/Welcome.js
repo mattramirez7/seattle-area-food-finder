@@ -1,7 +1,7 @@
 import React from 'react';
 
 export function Welcome() {
-    
+
     const registerWithEmailAndPassword = async (name, email, password) => {
         try {
           const res = await auth.createUserWithEmailAndPassword(email, password);
@@ -17,6 +17,15 @@ export function Welcome() {
           alert(err.message);
         }
       };
+      
+      const signInWithEmailAndPassword = async (email, password) => {
+        try {
+          await auth.signInWithEmailAndPassword(email, password);
+        } catch (err) {
+          console.error(err);
+          alert(err.message);
+        }
+      };      
       
     return (
         <section className="welcome">
