@@ -43,7 +43,7 @@ function App(props) {
         setIsCreatingList(false);
     }
 
-    const RECENT_EXAMPLE = ['Favorites', 'Want to try', 'Great burger places', 'Teriyaki places'];
+    const RECENT_EXAMPLE = ['Favorites', 'Want to Try', 'Great Burger Places', 'Teriyaki Places'];
 
     return (
         <div >
@@ -82,7 +82,7 @@ function App(props) {
             <footer>
                 <a href="">About </a>
                 <a href=""> Contact Us</a>
-                <p>© Seattle Food Finder 2021</p>
+                <p>© Seattle Area Food Finder 2021</p>
             </footer>
         </div>
     )
