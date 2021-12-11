@@ -11,7 +11,7 @@ import { Route } from 'react-router-dom';
 import { Switch } from 'react-router-dom';
 import { useState } from 'react'
 import { Redirect } from 'react-router-dom';
-import { getAuth, onAuthStateChanged } from 'firebase/auth';
+// import { getAuth, onAuthStateChanged } from 'firebase/auth';
 
 function App(props) {
 
