@@ -228,6 +228,10 @@ footer p, footer a {
 footer a:hover {
 	color: blanchedalmond;
 }
+/*styling for the text in the popup*/
+.popupText{
+	color:black;
+}
 
 /*Changing the header background image and font size based on width of screen*/
 
