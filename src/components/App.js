@@ -7,7 +7,6 @@ import { ListView } from './ListView';
 import { SearchForm } from './SearchForm';
 import { SearchList } from './SearchList';
 import { RestaurantPage } from './RestaurantPage';
-import { Welcome } from './Welcome';
 import { Route } from 'react-router-dom';
 import { Switch } from 'react-router-dom';
 import { useState } from 'react'

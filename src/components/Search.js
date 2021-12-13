@@ -20,7 +20,7 @@ export function Search({searchCallback}) {
             <form className='form-inline' onSubmit={handleSubmit}>
                 <div className="form-group mb-2">
                     <label htmlFor="searchQuery" className="mb-2">What would you like to find?</label>
-                    <input type="text" className="form-control" placeholder="Search for a place"
+                    <input type="text" className="form-control" placeholder="Search for a restaurant name"
                          value={queryText} onChange={handleChange} />
                 </div>
                 <button type="submit" className="btn btn-primary">

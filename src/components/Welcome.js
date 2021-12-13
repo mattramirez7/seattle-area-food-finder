@@ -2,7 +2,7 @@ import React from 'react';
 import firebase from 'firebase/app';
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
 
-export function Welcome() {
+/*export function Welcome() {
 
     const loginBtn = document.querySelector('#login-btn');
     loginBtn.addEventListener('click', e => {
@@ -56,7 +56,4 @@ export function Welcome() {
             console.log(error.message);
         });
     }
-}
-
-   
-        
+}*/
