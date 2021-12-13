@@ -14,7 +14,10 @@ export function SearchList({ searchData, getRestaurantObj }) {
             <div key={restaurantObj.Address} className="restList" >
                 <Link to="/restaurantPage" onClick={handleClick} >{restaurantObj.Name}</Link>
                 {/* Lists out the categories */}
-                <p>Category: {restaurantObj.Category.map((category)=>{
+                <p>Category: {restaurantObj.Category.map((category, index)=>{
+                    if (index+1 === restaurantObj.Category.length) {
+                        return(category)
+                    }
                     return(category+", ");
                 })}</p>
                 <p>Address: {restaurantObj.Address}</p>
@@ -23,7 +26,7 @@ export function SearchList({ searchData, getRestaurantObj }) {
     })
 
     return (
-        <div className="my-3">
+        <div className="">
             {elems}
         </div>
     )

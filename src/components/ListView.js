@@ -51,7 +51,7 @@ export function ListView({listNames, setIsCreatingList, isCreatingList, addNewLi
                 return(category+", ");
             })}</p>
             <p>Address: {restaurantObj.Address}</p>
-            <div className="input-group mb-3">
+            <div className="input-group">
                 <button className="btn btn-light btn-outline-secondary" type="submit">Submit</button>
                 <input type="text" className="form-control" placeholder="Leave a comment" aria-label="Example text with button addon" aria-describedby="button-addon1"/>
             </div>

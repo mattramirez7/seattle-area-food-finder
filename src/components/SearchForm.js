@@ -16,10 +16,10 @@ export function SearchForm({searchCallback}) {
 
     return (
         <div>
-            <form className='form-inline' onSubmit={handleSubmit}>
+            <form className='form-inline mb-3' onSubmit={handleSubmit}>
                 <div className="form-group mb-2">
                     <label htmlFor="searchQuery" className="mb-2">What would you like to find?</label>
-                    <input type="text" className="form-control" placeholder="Search for a place"
+                    <input type="text" className="form-control w-25" placeholder="Search for a place"
                          value={queryText} onChange={handleChange} />
                 </div>
                 <button type="submit" className="btn btn-primary">

@@ -16,9 +16,9 @@ import { Redirect } from 'react-router-dom';
 function App(props) {
 
     const [listNames, setListNames] = useState(['Favorites']); //monitors existing lists
-    const [searchData, setSearchData] = useState(props.restaurantData);
-    const [clickedRestaurant, setClickedRestaurant] = useState([{Name:"", Star:"", Category:[], Services:[], Address :""}]);
-    const [isCreatingList, setIsCreatingList] = useState(false);
+    const [searchData, setSearchData] = useState(props.restaurantData); //manages search data to display
+    const [clickedRestaurant, setClickedRestaurant] = useState([{Name:"", Star:"", Category:[], Services:[], Address :""}]); //manages clicked search restaurant
+    const [isCreatingList, setIsCreatingList] = useState(false); //manages if user is currently making a list
 
     
     /* const [currentUser, setCurrentUser] = useState(undefined);
@@ -69,7 +69,7 @@ function App(props) {
 
     return (
         <div >
-            <NavBar />
+            <NavBar resetSearchData={setSearchData} resetData={props.restaurantData}/>
             <header>
                <div>
                     <h1>Seattle Area Food Finder</h1>
@@ -95,6 +95,7 @@ function App(props) {
                         <SearchList searchData={searchData} getRestaurantObj={getRestaurantObj}/>
                     </Route>
                     <Route path='/restaurantPage'>
+                        <SearchForm searchCallback={getRestaurantSearchData}/>
                         <RestaurantPage restaurantObj={clickedRestaurant}/>
                     </Route>
                     <Redirect to='/home'/>

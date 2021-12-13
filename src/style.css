@@ -80,7 +80,7 @@ main .containerMain {
 .recommended {
 	flex: 3;
 	justify-content: center;
-	background-color: rgb(132, 87, 223);
+	background-color: #8820dd9a;
 	border-radius: 0 0 10px 10px;
 }
 
@@ -105,8 +105,18 @@ main .containerMain {
 
 .restList {
 	text-align: center;
-	background-color: #4b2e83;
+	background-color: #8820dd9a;
 	color: white;
+}
+
+.restList p {
+	margin-bottom: 0;
+	padding-bottom: 16px;
+}
+
+.restList a {
+	color: white;
+	font-size: 24px;
 }
 
 .userListsDiv {
