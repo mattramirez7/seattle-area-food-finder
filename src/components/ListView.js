@@ -50,11 +50,12 @@ export function ListView({listNames, setIsCreatingList, isCreatingList, addNewLi
 
     return(
     <section className="userLists">
+        <p> edit </p>
         <h1>My Recent Lists</h1>
             <div className="userListsDivHorizontal">
                 {createdUsersLists}
-                {isCreatingList && <div >
-                                        <form className="form-inline" className="userListsDivHorizontal" onSubmit={handleSubmit} >
+                {isCreatingList && <div className="listName">
+                                        <form className="form-inline d-flex flex-row" onSubmit={handleSubmit} >
                                             <div className="form-group mb-2">
                                                 <input type="text" className="form-control" placeholder="Enter a list name"
                                                     value={queryText} onChange={handleChange}/>

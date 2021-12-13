@@ -98,6 +98,11 @@ main .containerMain {
 	text-align: center;
 }
 
+.userLists p {
+	text-align: right;
+	margin-right: 10px;
+}
+
 .restList {
 	text-align: center;
 	background-color: #4b2e83;
@@ -114,7 +119,7 @@ main .containerMain {
 	border-radius: 10px;
 	background-color: rgb(132, 87, 223);
 	padding: 10px;
-	flex-basis: 100%;
+	flex-basis: 20%;
 	margin: 10px;
 	border-width: 3px;
 	border-style: solid;
@@ -191,6 +196,9 @@ img {
 	background-color: #4b2e83;
 	text-align: center;
 	align-items: baseline;
+	justify-content: center;
+	flex-wrap: wrap;
+
 }
 .listName2 {
 	border-radius: 10px;
@@ -211,6 +219,13 @@ img {
 	border-width: 3px;
 }
 
+/* Styling for Search Page */
+
+label {
+	font-weight: bold;
+	font-size: 22px;
+}
+
 /* Styling for footer */
 footer {
 	background-color: rgb(132, 87, 223);
@@ -227,6 +242,10 @@ footer p, footer a {
 
 footer a:hover {
 	color: blanchedalmond;
+}
+/*styling for the text in the popup*/
+.popupText{
+	color:black;
 }
 
 /*Changing the header background image and font size based on width of screen*/
