@@ -98,9 +98,13 @@ main .containerMain {
 	text-align: center;
 }
 
-.userLists p {
-	text-align: right;
+.userLists .cancel {
+	margin-top: 10px;
+	margin-bottom: 0;
 	margin-right: 10px;
+	background-color: #8820dd9a;
+	color:whitesmoke;
+	
 }
 
 .restList {

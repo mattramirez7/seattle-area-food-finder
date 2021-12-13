@@ -7,8 +7,6 @@ export function ListView({listNames, setIsCreatingList, isCreatingList, addNewLi
 
     const[queryText, setQueryText] = useState('');
 
-    
-
     const handleClick = () => {
         setIsCreatingList(true);
     }
@@ -28,6 +26,10 @@ export function ListView({listNames, setIsCreatingList, isCreatingList, addNewLi
     const listNameClick = (event) =>{
         setSelectedList(event.target.textContent);
     }
+
+    const handleCancel = (() => {
+        setIsCreatingList(false);
+    })
 
 
     const FAVORITES_EXAMPLE = [
@@ -60,7 +62,9 @@ export function ListView({listNames, setIsCreatingList, isCreatingList, addNewLi
 
     return(
     <section className="userLists">
-        <p> edit </p>
+        <div className="text-end">
+            {isCreatingList && <button className="cancel btn btn-sm" onClick={handleCancel}> cancel </button>}
+        </div>
         <h1>My Lists</h1>
             <div className="userListsDivHorizontal">
                 {createdUsersLists}
