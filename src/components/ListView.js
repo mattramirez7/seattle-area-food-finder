@@ -7,9 +7,7 @@ export function ListView({listNames, setIsCreatingList, isCreatingList, addNewLi
 
     const[queryText, setQueryText] = useState('');
 
-    let createdUsersLists = listNames.map((listName, index) =>{
-        return <div key={index + listName}  className='listName'>{listName}</div>  
-    });
+    
 
     const handleClick = () => {
         setIsCreatingList(true);
@@ -24,6 +22,12 @@ export function ListView({listNames, setIsCreatingList, isCreatingList, addNewLi
         addNewList(queryText);
         setQueryText('')
     }
+    //state variable for setting selected list
+    const[selectedList, setSelectedList] = useState('Favorites');
+
+    const listNameClick = (event) =>{
+        setSelectedList(event.target.textContent);
+    }
 
 
     const FAVORITES_EXAMPLE = [
@@ -31,6 +35,9 @@ export function ListView({listNames, setIsCreatingList, isCreatingList, addNewLi
         {Name:"MOD Pizza","Star":"4",Category:['Pizza', 'Fast Food'],Address:"417 Ramsay Way, Kent, WA 98032"},
         {Name:"IHOP","Star":"3.5",Category:['Breakfast & Brunch', 'American (Traditional)', 'Burgers'],Address:"178 SW Campus Dr, Federal Way, WA 98023"}
     ]
+    let createdUsersLists = listNames.map((listName, index) =>{
+        return <div onClick={listNameClick} key={index + listName}  className='listName'>{listName}</div>  
+    });
     // creates a lists of restutrants with a form to leave a comment
     let restaurantInCurrentList = FAVORITES_EXAMPLE.map((restaurantObj) =>{
         return(
@@ -54,7 +61,7 @@ export function ListView({listNames, setIsCreatingList, isCreatingList, addNewLi
     return(
     <section className="userLists">
         <p> edit </p>
-        <h1>My Recent Lists</h1>
+        <h1>My Lists</h1>
             <div className="userListsDivHorizontal">
                 {createdUsersLists}
                 {isCreatingList && <div className="listName">

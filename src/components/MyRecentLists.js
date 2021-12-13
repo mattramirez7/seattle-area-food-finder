@@ -9,10 +9,9 @@ export function MyRecentLists(props) {
 
     return (
         <section className="recents">
-            <h2> My Recent Lists</h2>
+            <h2> My Lists</h2>
                 <div className="userListsDiv">
                     {createdRecentList}
-                    <div className="listName">+ Create List</div>
                 </div>
         </section>
     )
