@@ -1,16 +1,24 @@
 import React from 'react';
-import { firebase } from 'firebase/app';
-import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 
 export function Welcome(props) {
-  const email = document.querySelector('#email').value;
-  const password = document.querySelector('#password').value;
+
+  let email = "test@gmail.com";
+  let password = "12345";
+  // let email = document.getElementById("email").value;
+  // let password = document.getElementById("password").value;
+   
+  
   //the user's name let name = firebaseUser.displayName; 
   //the user's picturelet pic = firebaseUser.photoURL; 
    
-   function signUp() {
 
-      firebase.auth().createUserWithEmailAndPassword(email, password)
+  
+
+    
+    firebase.auth().createUserWithEmailAndPassword(email, password)
       .then((userCredentials) => {
       let user = userCredentials.user;
          console.log('UserCreated:' + user.uid);
@@ -18,10 +26,9 @@ export function Welcome(props) {
       .catch((error) => {
          console.log(error.message);
       })
-   }
-   
-   function login() {
-      firebase.auth().signInWithEmailAndPassword(email, password)
+ 
+    
+    firebase.auth().signInWithEmailAndPassword(email, password)
       .then((userCredentials) => {
       let user = userCredentials.user;
         console.log('UserCreated:' + user.uid);
@@ -29,8 +36,7 @@ export function Welcome(props) {
       .catch((error) => {
          console.log(error.message);
       })
-   }
-
+  
    /* function updateProfile (name, pic)
      firebaseUser.updateProfile({
        let displayName = name;
