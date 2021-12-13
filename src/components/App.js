@@ -11,6 +11,7 @@ import { Route } from 'react-router-dom';
 import { Switch } from 'react-router-dom';
 import { useState } from 'react'
 import { Redirect } from 'react-router-dom';
+import { Welcome } from './Welcome';
 // import { getAuth, onAuthStateChanged } from 'firebase/auth';
 
 function App(props) {
@@ -78,6 +79,9 @@ function App(props) {
 
             <main>
                 <Switch>
+                    <Route path='/welcome'>
+                        <Welcome />
+                    </Route>
                     <Route path='/home'>        
                         <div className='containerMain'>
                             <MyRecentLists recents ={listNames}/>
