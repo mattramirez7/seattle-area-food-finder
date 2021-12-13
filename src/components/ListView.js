@@ -37,7 +37,10 @@ export function ListView({listNames, setIsCreatingList, isCreatingList, addNewLi
         <div key={restaurantObj.Name} className="restList">
             <h2>{restaurantObj.Name}</h2>
             {/* Lists out the categories */}
-            <p>Category: {restaurantObj.Category.map((category)=>{
+            <p>Category: {restaurantObj.Category.map((category, index)=>{
+                if (index+1 === restaurantObj.Category.length) {
+                    return(category)
+                }
                 return(category+", ");
             })}</p>
             <p>Address: {restaurantObj.Address}</p>
