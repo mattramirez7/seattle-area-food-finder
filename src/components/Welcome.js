@@ -1,5 +1,5 @@
 import React from 'react';
-import firebase from 'firebase/app';
+import { firebase } from 'firebase/app';
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
 
 export function Welcome(props) {
@@ -10,10 +10,10 @@ export function Welcome(props) {
    
    function signUp() {
 
-      fire.auth().createUserWithEmailAndPassword(email, password)
+      firebase.auth().createUserWithEmailAndPassword(email, password)
       .then((userCredentials) => {
       let user = userCredentials.user;
-         console.log(UserCreated + user.uid);
+         console.log('UserCreated:' + user.uid);
       })
       .catch((error) => {
          console.log(error.message);
@@ -21,10 +21,10 @@ export function Welcome(props) {
    }
    
    function login() {
-      fire.auth().signInWithEmailAndPassword(email, password)
+      firebase.auth().signInWithEmailAndPassword(email, password)
       .then((userCredentials) => {
       let user = userCredentials.user;
-        console.log(UserCreated + user.uid);
+        console.log('UserCreated:' + user.uid);
       })
       .catch((error) => {
          console.log(error.message);
@@ -53,4 +53,3 @@ export function Welcome(props) {
       </div>
   )
 }
-
