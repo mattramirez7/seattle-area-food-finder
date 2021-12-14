@@ -89,7 +89,7 @@ function App(props) {
                         </div>
                     </Route>
                     <Route path='/map'>
-                        <Map />
+                        <Map listNames={listNames}/>
                     </Route>
                     <Route path='/list'>
                         {<ListView listNames={listNames} setIsCreatingList={setIsCreatingList} isCreatingList={isCreatingList} addNewList={addNewList}/> }
