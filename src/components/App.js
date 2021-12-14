@@ -91,10 +91,10 @@ function App(props) {
                         </div>
                     </Route>
                     <Route path='/map'>
-                        <Map listNames={Object.keys(listNames)} currentList={currentList} setCurrentList={setCurrentList}/>
+                        <Map listNames={Object.keys(listNames)} currentList={currentList} setCurrentList={setCurrentList} getRestaurantObj={getRestaurantObj}/>
                     </Route>
                     <Route path='/list'>
-                        {<ListView listNames={Object.keys(listNames)} setIsCreatingList={setIsCreatingList} isCreatingList={isCreatingList} addNewList={addNewList} currentList={currentList} setCurrentList={setCurrentList}/> }
+                        {<ListView listNames={Object.keys(listNames)} setIsCreatingList={setIsCreatingList} isCreatingList={isCreatingList} addNewList={addNewList} currentList={currentList} setCurrentList={setCurrentList} getRestaurantObj={getRestaurantObj}/> }
                     </Route>
                     <Route path='/search'>
                         <SearchForm searchCallback={getRestaurantSearchData}/>

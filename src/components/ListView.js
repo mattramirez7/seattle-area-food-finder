@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 
 
-export function ListView({listNames, setIsCreatingList, isCreatingList, addNewList, currentList, setCurrentList}){
+export function ListView({listNames, setIsCreatingList, isCreatingList, addNewList, currentList, setCurrentList, getRestaurantObj}){
 
     const[queryText, setQueryText] = useState('');
 
