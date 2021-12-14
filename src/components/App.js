@@ -20,7 +20,7 @@ function App(props) {
     const favExRef = (db, "User1/Lists/Favorites");
     console.log(favExRef);
 
-    const [listNames, setListNames] = useState(['Favorites']); //monitors existing lists
+    const [listNames, setListNames] = useState(["Favorites"]); //monitors existing lists
     const [searchData, setSearchData] = useState(props.restaurantData); //manages search data to display
     const [clickedRestaurant, setClickedRestaurant] = useState([{Name:"", Star:"", Category:[], Services:[], Address :""}]); //manages clicked search restaurant
     const [isCreatingList, setIsCreatingList] = useState(false); //manages if user is currently making a list
