@@ -3,8 +3,6 @@ import {NavBar} from './NavBar';
 import { MyRecentLists } from './MyRecentLists';
 import {Recommended} from './Recommended';
 import {Map} from './Map';
-import {About} from './About';
-import {Contact} from './Contact';
 import { ListView } from './ListView';
 import { SearchForm } from './SearchForm';
 import { SearchList } from './SearchList';
@@ -15,15 +13,17 @@ import { useState } from 'react'
 import { Redirect } from 'react-router-dom';
 import { Login } from './Login';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
-import {NavLink} from 'react-router-dom';
-
+import {getDatabase, ref, set, push, onValue} from 'firebase/database'
 
 function App(props) {
+    const db = getDatabase();
+    const favExRef = (db, "User1/Lists/Favorites");
 
-    const [listNames, setListNames] = useState(['Favorites']); //monitors existing lists
+    const [listNames, setListNames] = useState({Favorites:[]}); //monitors existing lists
     const [searchData, setSearchData] = useState(props.restaurantData); //manages search data to display
     const [clickedRestaurant, setClickedRestaurant] = useState([{Name:"", Star:"", Category:[], Services:[], Address :""}]); //manages clicked search restaurant
     const [isCreatingList, setIsCreatingList] = useState(false); //manages if user is currently making a list
+    const [currentList, setCurrentList] = useState("Favorites");
 
     
     const [currentUser, setCurrentUser] = useState(undefined);
@@ -63,8 +63,8 @@ function App(props) {
     }
 
     function addNewList(listName) {
-        let newListNames = [...listNames, listName];
-        setListNames(newListNames);
+        listNames[listName] = [];
+        setListNames(listNames);
         setIsCreatingList(false);
     }
 
@@ -86,19 +86,19 @@ function App(props) {
                     </Route>
                     <Route path='/home'>        
                         <div className='containerMain'>
-                            <MyRecentLists recents ={listNames}/>
+                            <MyRecentLists recents ={Object.keys(listNames)}/>
                             <Recommended />
                         </div>
                     </Route>
                     <Route path='/map'>
-                        <Map listNames={listNames}/>
+                        <Map listNames={Object.keys(listNames)} currentList={currentList} setCurrentList={setCurrentList} getRestaurantObj={getRestaurantObj}/>
                     </Route>
                     <Route path='/list'>
-                        {<ListView listNames={listNames} setIsCreatingList={setIsCreatingList} isCreatingList={isCreatingList} addNewList={addNewList}/> }
+                        {<ListView listNames={Object.keys(listNames)} setIsCreatingList={setIsCreatingList} isCreatingList={isCreatingList} addNewList={addNewList} currentList={currentList} setCurrentList={setCurrentList} getRestaurantObj={getRestaurantObj}/> }
                     </Route>
                     <Route path='/search'>
                         <SearchForm searchCallback={getRestaurantSearchData}/>
-                        <SearchList searchData={searchData} getRestaurantObj={getRestaurantObj}/>
+                        <SearchList searchData={searchData} getRestaurantObj={getRestaurantObj} listObj={listNames} setListObj={setListNames} currentList={currentList} setCurrentList={setCurrentList}/>
                     </Route>
                     <Route path='/restaurantPage'>
                         <SearchForm searchCallback={getRestaurantSearchData}/>

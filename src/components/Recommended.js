@@ -46,7 +46,7 @@ const EXAMPLE_FAV_USER_DATA = [
 ]
 
 let threeRandom = [];
-for(let i = 1; i < 4 || i == EXAMPLE_FAV_USER_DATA.lenngth; i++){
+for(let i = 1; i < 4 || i === EXAMPLE_FAV_USER_DATA.lenngth; i++){
     let random = Math.floor(Math.random()*EXAMPLE_FAV_USER_DATA.length);
     do{
         random = Math.floor(Math.random()*EXAMPLE_FAV_USER_DATA.length)
