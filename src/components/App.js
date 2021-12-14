@@ -68,7 +68,7 @@ function App(props) {
 
     return (
         <div >
-            <NavBar resetSearchData={setSearchData} resetData={props.restaurantData}/>
+            <NavBar user = {currentUser} resetSearchData={setSearchData} resetData={props.restaurantData}/>
             <header>
                <div>
                     <h1>Seattle Area Food Finder</h1>
