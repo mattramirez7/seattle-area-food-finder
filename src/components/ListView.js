@@ -3,7 +3,9 @@ import { useState } from 'react';
 
 
 
-export function ListView({listNames, setIsCreatingList, isCreatingList, addNewList, currentList, setCurrentList, getRestaurantObj}){
+export function ListView({restaurantData, listNames, setIsCreatingList, isCreatingList, addNewList, currentList, setCurrentList}){
+
+
 
     const[queryText, setQueryText] = useState('');
 
@@ -29,20 +31,32 @@ export function ListView({listNames, setIsCreatingList, isCreatingList, addNewLi
         setIsCreatingList(false);
     })
 
+    const list = listNames[currentList];
+
+    let restaurantObjs = restaurantData.filter((restaurant) => {
+        for (let i=0; i<list.length;i++) {
+            if(restaurant.Name === list[i]) {
+                return true;
+            }
+        }
+        return false;
+    })
+
+    console.log(restaurantObjs); 
 
     const FAVORITES_EXAMPLE = [
         {Name:"Din Tai Fung",Star:"4",Category:['Taiwanese', 'Dim Sum', 'Shanghainese'],Address:"700 Bellevue Way NE, Ste 280, Bellevue, WA 98004"},
         {Name:"MOD Pizza","Star":"4",Category:['Pizza', 'Fast Food'],Address:"417 Ramsay Way, Kent, WA 98032"},
         {Name:"IHOP","Star":"3.5",Category:['Breakfast & Brunch', 'American (Traditional)', 'Burgers'],Address:"178 SW Campus Dr, Federal Way, WA 98023"}
     ]
-    let createdUsersLists = listNames.map((listName, index) =>{
+    let createdUsersLists = Object.keys(listNames).map((listName, index) =>{
         if(listName === currentList) {
             return <div key={index + listName} onClick={listNameClick} className='listName listNameClicked '>{listName}</div>
         }
         return <div onClick={listNameClick} key={index + listName}  className='listName'>{listName}</div>  
     });
     // creates a lists of restutrants with a form to leave a comment
-    let restaurantInCurrentList = FAVORITES_EXAMPLE.map((restaurantObj) =>{
+    let restaurantInCurrentList = restaurantObjs.map((restaurantObj) =>{
         return(
         <div key={restaurantObj.Name} className="restList">
             <h2>{restaurantObj.Name}</h2>

@@ -94,7 +94,7 @@ function App(props) {
                         <Map listNames={Object.keys(listNames)} currentList={currentList} setCurrentList={setCurrentList} getRestaurantObj={getRestaurantObj}/>
                     </Route>
                     <Route path='/list'>
-                        {<ListView listNames={Object.keys(listNames)} setIsCreatingList={setIsCreatingList} isCreatingList={isCreatingList} addNewList={addNewList} currentList={currentList} setCurrentList={setCurrentList} getRestaurantObj={getRestaurantObj}/> }
+                        {<ListView restaurantData={props.restaurantData} listNames={listNames} setIsCreatingList={setIsCreatingList} isCreatingList={isCreatingList} addNewList={addNewList} currentList={currentList} setCurrentList={setCurrentList} getRestaurantObj={getRestaurantObj}/> }
                     </Route>
                     <Route path='/search'>
                         <SearchForm searchCallback={getRestaurantSearchData}/>
