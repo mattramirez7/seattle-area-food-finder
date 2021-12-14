@@ -11,7 +11,7 @@ const MAP_EXAMPLE_DATA=[
 
 const mapboxToken = 'pk.eyJ1IjoiY29sZW0xNSIsImEiOiJja3d4OThmamEwYjQ2MnBsYTB2NXQ4eGE0In0.x9yuczRwFieqqkK5IlQ2Mg'
 
-export function Map({listNames}){
+export function Map({listNames, currentList, setCurrentList}){
     const [viewport, setViewport] = useState({
         longitude: -122.3321,
         latitude: 47.6062,
@@ -42,7 +42,6 @@ export function Map({listNames}){
 
     return(
         <div>
-            <h1 className="text-center">My Lists</h1>
             <div className="userListsDivHorizontal">
                 {createdUsersLists}
             </div> 

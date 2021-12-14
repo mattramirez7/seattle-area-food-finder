@@ -240,6 +240,17 @@ label {
 	font-size: 22px;
 }
 
+.add {
+	margin-top: 10px;
+	margin-bottom: 0;
+	margin-right: 10px;
+	background-color: #8820dd9a;
+	color:whitesmoke;
+}
+
+.searchList {
+	background-color: #8820dd9a;
+}
 /* Styling for footer */
 footer {
 	background-color: rgb(132, 87, 223);

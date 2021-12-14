@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 
 
-export function ListView({listNames, setIsCreatingList, isCreatingList, addNewList}){
+export function ListView({listNames, setIsCreatingList, isCreatingList, addNewList, currentList, setCurrentList}){
 
     const[queryText, setQueryText] = useState('');
 
@@ -20,11 +20,9 @@ export function ListView({listNames, setIsCreatingList, isCreatingList, addNewLi
         addNewList(queryText);
         setQueryText('')
     }
-    //state variable for setting selected list
-    const[selectedList, setSelectedList] = useState('Favorites');
 
     const listNameClick = (event) =>{
-        setSelectedList(event.target.textContent);
+        setCurrentList(event.target.textContent);
     }
 
     const handleCancel = (() => {
