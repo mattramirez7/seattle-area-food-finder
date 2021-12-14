@@ -20,7 +20,7 @@ const firebaseUIConfig = {
   }
 }
 
-export function Welcome(props) {
+export function Login(props) {
 
   const auth = getAuth();
 

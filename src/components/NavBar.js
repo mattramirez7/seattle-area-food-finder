@@ -11,7 +11,7 @@ export function NavBar({resetSearchData, resetData}) {
     return (
         <nav>
             <ul>
-                <NavLink exact to="/">Welcome</NavLink>
+                <NavLink exact to="/login">Sign In</NavLink>
                 <NavLink to="/home">Home</NavLink>
                 <NavLink to="/list">List</NavLink>
                 <NavLink to="/map">Map</NavLink>

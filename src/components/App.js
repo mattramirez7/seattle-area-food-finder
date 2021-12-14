@@ -11,7 +11,7 @@ import { Route } from 'react-router-dom';
 import { Switch } from 'react-router-dom';
 import { useState } from 'react'
 import { Redirect } from 'react-router-dom';
-import { Welcome } from './Welcome';
+import { Login } from './Login';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 
 function App(props) {
@@ -77,8 +77,8 @@ function App(props) {
 
             <main>
                 <Switch>
-                    <Route path='/welcome'>
-                        <Welcome />
+                    <Route path='/login'>
+                        <Login />
                     </Route>
                     <Route path='/home'>        
                         <div className='containerMain'>
