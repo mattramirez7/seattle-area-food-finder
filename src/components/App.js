@@ -3,6 +3,8 @@ import {NavBar} from './NavBar';
 import { MyRecentLists } from './MyRecentLists';
 import {Recommended} from './Recommended';
 import {Map} from './Map';
+import {About} from './About';
+import {Contact} from './Contact';
 import { ListView } from './ListView';
 import { SearchForm } from './SearchForm';
 import { SearchList } from './SearchList';
@@ -13,6 +15,7 @@ import { useState } from 'react'
 import { Redirect } from 'react-router-dom';
 import { Login } from './Login';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
+import {NavLink} from 'react-router-dom';
 import {getDatabase, ref, set, push, onValue} from 'firebase/database'
 
 function App(props) {
