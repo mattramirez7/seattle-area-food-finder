@@ -4,7 +4,6 @@ import 'firebase/auth';
 import 'firebase/firestore';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import { getAuth, GoogleAuthProvider, EmailAuthProvider } from 'firebase/auth';
-import {Redirect} from 'react-router-dom';
 
 
 const firebaseUIConfig = {
@@ -23,7 +22,6 @@ const firebaseUIConfig = {
 export function Login(props) {
 
   const auth = getAuth();
-  
 
    return (
     <div>

@@ -16,7 +16,7 @@ export function RestaurantPage(props) {
     })
 
     return (
-        <div >
+        <div>
             {restaurantObjElems}
         </div>
     )
