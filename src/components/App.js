@@ -13,7 +13,7 @@ import { useState } from 'react'
 import { Redirect } from 'react-router-dom';
 import { Login } from './Login';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
-import {getDatabase, ref} from 'firebase/database'
+import {getDatabase, ref, set, push, onValue} from 'firebase/database'
 
 function App(props) {
     const db = getDatabase();
