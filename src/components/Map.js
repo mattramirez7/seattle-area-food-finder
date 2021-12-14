@@ -11,7 +11,7 @@ const MAP_EXAMPLE_DATA=[
 
 const mapboxToken = 'pk.eyJ1IjoiY29sZW0xNSIsImEiOiJja3d4OThmamEwYjQ2MnBsYTB2NXQ4eGE0In0.x9yuczRwFieqqkK5IlQ2Mg'
 
-export function Map(){
+export function Map({listNames}){
     const [viewport, setViewport] = useState({
         longitude: -122.3321,
         latitude: 47.6062,
@@ -21,6 +21,10 @@ export function Map(){
     }); 
 
     const[selectedRestaurant, setSelctedRestaurant]= useState(null);
+
+    let createdUsersLists = listNames.map((listName, index) =>{
+        return <div key={index + listName}  className='listName'>{listName}</div>  
+    });
 
     //allows user to press escape to close popup
     useEffect(()=>{
@@ -38,6 +42,10 @@ export function Map(){
 
     return(
         <div>
+            <h1 className="text-center">My Lists</h1>
+            <div className="userListsDivHorizontal">
+                {createdUsersLists}
+            </div> 
             <ReactMapGL {...viewport} mapboxApiAccessToken={mapboxToken}
             onViewportChange={nextViewport => {
                  setViewport(nextViewport);
