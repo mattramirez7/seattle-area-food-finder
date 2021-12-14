@@ -13,8 +13,12 @@ import { useState } from 'react'
 import { Redirect } from 'react-router-dom';
 import { Login } from './Login';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
+import {getDatabase, ref} from 'firebase/database'
 
 function App(props) {
+    const db = getDatabase();
+    const favExRef = (db, "User1/Lists/Favorites");
+    console.log(favExRef);
 
     const [listNames, setListNames] = useState(['Favorites']); //monitors existing lists
     const [searchData, setSearchData] = useState(props.restaurantData); //manages search data to display
