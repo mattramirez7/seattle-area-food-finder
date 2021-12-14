@@ -37,7 +37,11 @@ export function About() {
                 bite, and anything else related to restaurants and food in the greater Seattle Area.     
             </p>
         </div>
-
+        <div>
+            <h3>Citations</h3>
+            <a href="https://www.kaggle.com/oklena/seattle-area-restaurants">https://www.kaggle.com/oklena/seattle-area-restaurants</a>
+            <p>We used Seattle Restaurant data courtesy of user 'oklena', who sourced the restaurant data from Yelp.com.</p>
+        </div>
         <div>
             <h3>Functionality</h3>
             <p>
