@@ -1,8 +1,15 @@
 import React from 'react'
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import {NavLink} from 'react-router-dom';
+import { getAuth, signOut } from 'firebase/auth';
 
-export function NavBar({resetSearchData, resetData}) {
+export function NavBar({user, resetSearchData, resetData}) {
+
+    const handleSignOut = (event) => {
+        signOut(getAuth());
+    }
+
+
 
     const handleClick = (() => {
         resetSearchData(resetData);

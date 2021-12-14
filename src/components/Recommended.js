@@ -165,8 +165,8 @@ function assignCategory(category){
 
 
 
-function createReccomended(){
-       let Recommnendations = chooseThreeRandom.map((number) =>{
+function createRecommended(){
+       let recommendations = chooseThreeRandom.map((number) =>{
         return(<div>
            <img src={assignCategory(EXAMPLE_FAV_USER_DATA[number].Category[0])} alt={"Picture related to" +EXAMPLE_FAV_USER_DATA[number].Name}/>
            <p>{EXAMPLE_FAV_USER_DATA[number].Name}</p>
@@ -174,7 +174,7 @@ function createReccomended(){
             );
         });
       
-   return(Recommnendations); 
+   return(recommendations); 
 }    
 
 
