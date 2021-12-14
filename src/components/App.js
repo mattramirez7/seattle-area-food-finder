@@ -12,7 +12,7 @@ import { Switch } from 'react-router-dom';
 import { useState } from 'react'
 import { Redirect } from 'react-router-dom';
 import { Welcome } from './Welcome';
-// import { getAuth, onAuthStateChanged } from 'firebase/auth';
+import { getAuth, onAuthStateChanged } from 'firebase/auth';
 
 function App(props) {
 
@@ -22,26 +22,24 @@ function App(props) {
     const [isCreatingList, setIsCreatingList] = useState(false); //manages if user is currently making a list
 
     
-    /* const [currentUser, setCurrentUser] = useState(undefined);
+    const [currentUser, setCurrentUser] = useState(undefined);
+
     useEffect(() => {
         const auth = getAuth();
-    }
-    
-    const unregisteredAuthListener = onAuthStateChanged(auth, (firebaseUser) => {
-        if (firebaseUser){
-            console.log("logging in", firebaseUser);
-            if(!firebaseUser.photoURL)
-            firebaseUser.photoURL = '/img/null.png';
-            setCurretnUser(firebaseUser);
+        const unregisteredAuthListener = onAuthStateChanged(auth, (firebaseUser) => {
+             if (firebaseUser) {
+                console.log("logging in", firebaseUser.displayName);
+                setCurrentUser(firebaseUser);
         } else {
             console.log("logging out");
             setCurrentUser(null);
         }
-    })
-    return () => {
-        unregisteredAuthListener();
-    } */
-
+        })
+        return() => {
+            unregisteredAuthListener();
+        }
+    }, [])
+    
     function getRestaurantSearchData(searchName) {
         let filteredRestaurants = props.restaurantData.filter((restaurantObj) => {
             return (
