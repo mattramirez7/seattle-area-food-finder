@@ -63,7 +63,7 @@ function App(props) {
     }
 
     function addNewList(listName) {
-        listNames[listName] = [""];
+        listNames[listName] = [];
         setListNames(listNames);
         setIsCreatingList(false);
     }

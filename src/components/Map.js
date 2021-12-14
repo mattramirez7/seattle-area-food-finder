@@ -22,8 +22,15 @@ export function Map({listNames, currentList, setCurrentList}){
 
     const[selectedRestaurant, setSelctedRestaurant]= useState(null);
 
+    const listNameClick = (event) =>{
+        setCurrentList(event.target.textContent);
+    }
+
     let createdUsersLists = listNames.map((listName, index) =>{
-        return <div key={index + listName}  className='listName'>{listName}</div>  
+        if(listName === currentList) {
+            return <div key={index + listName} onClick={listNameClick} className='listName listNameClicked '>{listName}</div>
+        }
+        return <div key={index + listName} onClick={listNameClick} className='listName'>{listName}</div>  
     });
 
     //allows user to press escape to close popup

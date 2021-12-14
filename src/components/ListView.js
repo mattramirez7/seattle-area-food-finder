@@ -36,6 +36,9 @@ export function ListView({listNames, setIsCreatingList, isCreatingList, addNewLi
         {Name:"IHOP","Star":"3.5",Category:['Breakfast & Brunch', 'American (Traditional)', 'Burgers'],Address:"178 SW Campus Dr, Federal Way, WA 98023"}
     ]
     let createdUsersLists = listNames.map((listName, index) =>{
+        if(listName === currentList) {
+            return <div key={index + listName} onClick={listNameClick} className='listName listNameClicked '>{listName}</div>
+        }
         return <div onClick={listNameClick} key={index + listName}  className='listName'>{listName}</div>  
     });
     // creates a lists of restutrants with a form to leave a comment

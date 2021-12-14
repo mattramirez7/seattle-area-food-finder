@@ -8,6 +8,10 @@ export function SearchList({ searchData, getRestaurantObj, listObj, setListObj, 
         getRestaurantObj(event.target.text)
     }
 
+    const listNameClick = (event) =>{
+        setCurrentList(event.target.textContent);
+    }
+
     const handleAdd = (event) => {
         listObj[currentList].push(event.target.value);
         setListObj(listObj);
@@ -15,7 +19,10 @@ export function SearchList({ searchData, getRestaurantObj, listObj, setListObj, 
     }
 
     let createdUsersLists = Object.keys(listObj).map((listName, index) =>{
-        return <div key={index + listName}  className='listName'>{listName}</div>  
+        if(listName === currentList) {
+            return <div key={index + listName} onClick={listNameClick} className='listName listNameClicked '>{listName}</div>
+        }
+        return <div key={index + listName} onClick={listNameClick} className='listName'>{listName}</div>  
     });
 
     const elems = searchData.map((restaurantObj) => {
