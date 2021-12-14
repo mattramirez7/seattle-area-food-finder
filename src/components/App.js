@@ -3,6 +3,8 @@ import {NavBar} from './NavBar';
 import { MyRecentLists } from './MyRecentLists';
 import {Recommended} from './Recommended';
 import {Map} from './Map';
+import {About} from './About';
+import {Contact} from './Contact';
 import { ListView } from './ListView';
 import { SearchForm } from './SearchForm';
 import { SearchList } from './SearchList';
@@ -13,6 +15,7 @@ import { useState } from 'react'
 import { Redirect } from 'react-router-dom';
 import { Login } from './Login';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
+import {NavLink} from 'react-router-dom';
 import {getDatabase, ref, set, push, onValue} from 'firebase/database'
 
 function App(props) {
@@ -104,13 +107,19 @@ function App(props) {
                         <SearchForm searchCallback={getRestaurantSearchData}/>
                         <RestaurantPage restaurantObj={clickedRestaurant}/>
                     </Route>
+                    <Route path='/about/'>
+                        <About/>
+                    </Route>
+                    <Route path='/contact/'>
+                        <Contact/>
+                    </Route>
                     <Redirect to='/home'/>
                 </Switch>
             </main>
             
             <footer>
-                <a href="">About </a>
-                <a href=""> Contact Us</a>
+                <NavLink to="/About">About </NavLink>
+                <NavLink to="/Contact"> Contact Us</NavLink>
                 <p>© Seattle Area Food Finder 2021</p>
             </footer>
         </div>

@@ -160,11 +160,7 @@ function assignCategory(category){
     else if(Categories.indexOf(category) <111){
         return("Fish&Chips.jpg")
     }
-    
 }
-
-
-
 
 let Recommendations = threeRandom.map((number) =>{
 return(<div key={number}>
@@ -173,8 +169,6 @@ return(<div key={number}>
     </div>
     );
 });
-
-   
 
 
     return (
